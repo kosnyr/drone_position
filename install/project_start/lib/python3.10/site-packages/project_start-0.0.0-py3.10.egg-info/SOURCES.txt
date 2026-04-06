@@ -8,6 +8,7 @@ setup.py
 ../../build/project_start/project_start.egg-info/requires.txt
 ../../build/project_start/project_start.egg-info/top_level.txt
 ../../build/project_start/project_start.egg-info/zip-safe
+launch/start.launch.py
 project_start/__init__.py
 resource/project_start
 test/test_copyright.py

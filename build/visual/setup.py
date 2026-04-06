@@ -1,1 +1,0 @@
-/home/drone/drone_ws/src/visual/setup.py

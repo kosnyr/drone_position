@@ -1,6 +1,3 @@
 source;share/visual/hook/pythonpath.ps1
 source;share/visual/hook/pythonpath.dsv
 source;share/visual/hook/pythonpath.sh
-source;../../build/visual/share/visual/hook/pythonpath_develop.ps1
-source;../../build/visual/share/visual/hook/pythonpath_develop.dsv
-source;../../build/visual/share/visual/hook/pythonpath_develop.sh
