@@ -3,6 +3,7 @@
 """
 FISHEYE ARUCO POSITIONING NODE
 Fisheye camera + ArUco markers → absolute drone position on field
+Высота вычисляется с помощью дальномера и углов Эйлера
 """
 
 import cv2
@@ -17,7 +18,7 @@ from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 
 from sensor_msgs.msg import Image
 from geometry_msgs.msg import Vector3, PoseStamped, Point, Quaternion
-from std_msgs.msg import Header
+from std_msgs.msg import Float64
 from cv_bridge import CvBridge, CvBridgeError
 
 
@@ -92,6 +93,7 @@ class aruco_detector_node(Node):
         self._roll       = 0.0
         self._pitch      = 0.0
         self._yaw        = 0.0
+        self._altitude   = None  # высота от дальномера
         self._imu_lock   = threading.Lock()
         self._map1       = None
         self._map2       = None
@@ -126,8 +128,9 @@ class aruco_detector_node(Node):
         )
 
         # ── Подписки / издатели ───────────────────────────────────────────
-        self.create_subscription(Image,   '/camera/image_raw',       self.image_callback,    img_qos)
-        self.create_subscription(Vector3, '/uav/attitude/euler',      self.attitude_callback, rel_qos)
+        self.create_subscription(Image,   '/camera/image_raw',    self.image_callback,    img_qos)
+        self.create_subscription(Vector3, '/uav/ATTITUDE',        self.attitude_callback, rel_qos)
+        self.create_subscription(Float64, '/uav/altitude',        self.altitude_callback, rel_qos)
 
         # Поза относительно ближайшего маркера
         self.pub_pose_marker = self.create_publisher(PoseStamped, '/aruco/drone_pose_marker', rel_qos)
@@ -232,6 +235,11 @@ class aruco_detector_node(Node):
         with self._imu_lock:
             self._roll, self._pitch, self._yaw = msg.x, msg.y, msg.z
 
+    def altitude_callback(self, msg: Float64) -> None:
+        """Получает высоту от дальномера (уже скорректированную)"""
+        with self._imu_lock:
+            self._altitude = msg.data
+
     def image_callback(self, msg: Image) -> None:
         # ── Декод ──────────────────────────────────────────────────────
         try:
@@ -261,9 +269,16 @@ class aruco_detector_node(Node):
         if not poses:
             return
 
-        # ── IMU snapshot ───────────────────────────────────────────────
+        # ── IMU и высота snapshot ──────────────────────────────────────
         with self._imu_lock:
             roll, pitch, yaw = self._roll, self._pitch, self._yaw
+            altitude = self._altitude
+
+        # Если нет данных о высоте, пропускаем
+        if altitude is None:
+            self.get_logger().warn('No altitude data available', throttle_duration_sec=1.0)
+            return
+
         R_b2w = euler_to_rotation_matrix(roll, pitch, yaw)
 
         # ── Публикация: поза относительно каждого маркера ─────────────
@@ -272,8 +287,17 @@ class aruco_detector_node(Node):
             R_mc    = R_cm.T
             t_mc    = (-R_mc @ tvec.reshape(3, 1)).flatten()  # cam в системе маркера
 
-            # Преобразуем в мировую систему координат (с учётом ориентации дрона)
-            t_world  = R_b2w @ t_mc
+            # Преобразуем X и Y в мировую систему координат
+            # Z заменяем на высоту от дальномера
+            t_world_xy  = R_b2w @ t_mc
+            
+            # Используем высоту от дальномера вместо Z из камеры
+            t_world = np.array([
+                t_world_xy[0],
+                t_world_xy[1],
+                altitude  # высота от дальномера
+            ])
+
             R_world  = R_b2w @ R_mc
             qx, qy, qz, qw = rotation_matrix_to_quaternion(R_world)
 

@@ -1,0 +1,6 @@
+source;share/altitude/hook/pythonpath.ps1
+source;share/altitude/hook/pythonpath.dsv
+source;share/altitude/hook/pythonpath.sh
+source;share/altitude/hook/ament_prefix_path.ps1
+source;share/altitude/hook/ament_prefix_path.dsv
+source;share/altitude/hook/ament_prefix_path.sh

@@ -17,6 +17,20 @@ def generate_launch_description():
         name='global_position'
     )
 
+    # ─── Нода дальномера ───────────────────────────────────────────────
+    rangefinder_node = Node(
+        package='rangefinder',
+        executable='rangefinder',
+        name='rangefinder'
+    )
+
+    # ─── Нода пересчета высоты с учетом углов Эйлера ───────────────────────────────────────────────
+    altitude_node = Node(
+        package='altitude',
+        executable='altitude',
+        name='altitude'
+    )
+
     # ─── Нода PX4 ──────────────────────────────────────────────────────────────
     px4_node = Node(
         package='px4',
@@ -45,6 +59,8 @@ def generate_launch_description():
     return LaunchDescription([
         camera_launch,
         px4_node,
+        rangefinder_node,
+        altitude_node,
         aruco_detector_node,
         global_position_node,
     ])

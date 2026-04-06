@@ -5,7 +5,7 @@ from rclpy.qos import QoSProfile, ReliabilityPolicy
 from pymavlink import mavutil
 import signal
 import sys
-from std_msgs.msg import Float64MultiArray
+from geometry_msgs.msg import Vector3
 
 
 class MAVLinkForwarder(Node):
@@ -20,8 +20,8 @@ class MAVLinkForwarder(Node):
         # Configure QoS for real-time data
         qos_profile = QoSProfile(depth=10, reliability=ReliabilityPolicy.RELIABLE)
 
-        # Publishers with QoS settings
-        self.ATTITUDE_pub = self.create_publisher(Float64MultiArray, '/uav/ATTITUDE', qos_profile)
+        # Publisher for Euler angles
+        self.attitude_pub = self.create_publisher(Vector3, '/uav/ATTITUDE', qos_profile)
 
         self.connect_mavlink()
         self.timer = self.create_timer(0.001, self.process_mavlink_messages)
@@ -53,30 +53,23 @@ class MAVLinkForwarder(Node):
             sys.exit(1)
 
     def process_mavlink_messages(self):
-        try:
-            while True:
-                msg = self.master.recv_match(blocking=False)
-                if not msg:
-                    break
-                self.handle_mavlink_message(msg)
-                self.get_logger().info(f"msg received!", throttle_duration_sec=1)
-        except Exception as e:
-            self.get_logger().error(f"Error processing message: {str(e)}", throttle_duration_sec=1)
+    try:
+        msg = self.master.recv_match(blocking=False, timeout=0.01)  # добавьте timeout
+        if msg:
+            self.handle_mavlink_message(msg)
+    except Exception as e:
+        self.get_logger().error(f"Error processing message: {str(e)}", throttle_duration_sec=5.0)
 
     def handle_mavlink_message(self, msg):
         msg_type = msg.get_type()
 
         try:
             if msg_type == "ATTITUDE":
-                array_msg = Float64MultiArray()
-                array_msg.data = [
-                    msg.pitch, msg.roll, msg.yaw,
-                    msg.pitchspeed, msg.rollspeed, msg.yawspeed
-                ]
-                self.ATTITUDE_pub.publish(array_msg)
-
-            # Add debug logging if needed
-            self.get_logger().debug(f"Processed {msg_type}", throttle_duration_sec=1)
+                euler_msg = Vector3()
+                euler_msg.x = msg.roll
+                euler_msg.y = msg.pitch
+                euler_msg.z = msg.yaw
+                self.attitude_pub.publish(euler_msg)
 
         except Exception as e:
             self.get_logger().error(f"Error handling {msg_type}: {str(e)}", throttle_duration_sec=1)

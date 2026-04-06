@@ -1,0 +1,6 @@
+source;share/rangefinder/hook/pythonpath.ps1
+source;share/rangefinder/hook/pythonpath.dsv
+source;share/rangefinder/hook/pythonpath.sh
+source;share/rangefinder/hook/ament_prefix_path.ps1
+source;share/rangefinder/hook/ament_prefix_path.dsv
+source;share/rangefinder/hook/ament_prefix_path.sh

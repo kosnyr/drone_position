@@ -1,5 +1,0 @@
-  File "/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages/aruco_detector_node/aruco_detector.py", line 63
-    </html>"""
-              ^
-SyntaxError: bytes can only contain ASCII literal characters
-

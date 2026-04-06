@@ -1,0 +1,3 @@
+[console_scripts]
+rangefinder = rangefinder.rangefinder_node:main
+

@@ -70,9 +70,26 @@ class GlobalPositionNode(Node):
     def _load_field_map(self, path: str) -> Dict[int, np.ndarray]:
         d = self._load_yaml(path)
         result: Dict[int, np.ndarray] = {}
+        
+        # Читаем параметры из конфига
+        marker_size = d.get('marker_size', 0.2)
+        marker_origin = d.get('marker_origin', 'center')
+        
+        # Вычисляем смещение
+        offset = marker_size / 2.0 if marker_origin == 'corner' else 0.0
+        
         for m in d.get('markers', []):
             p = m['position']
-            result[int(m['id'])] = np.array([p['x'], p['y'], p['z']], dtype=np.float64)
+            result[int(m['id'])] = np.array([
+                p['x'] - offset,
+                p['y'] - offset,
+                p['z']
+            ], dtype=np.float64)
+        
+        self.get_logger().info(
+            f"Marker origin: {marker_origin}, offset: {offset}m"
+        )
+        
         return result
 
     # ─────────────────────────────────────────────────────────────────────
