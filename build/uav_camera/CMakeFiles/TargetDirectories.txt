@@ -1,0 +1,10 @@
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/uninstall.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/uav_camera_uninstall.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/camera_publisher.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/test.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/edit_cache.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/rebuild_cache.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/list_install_components.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/install.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/install/local.dir
+/home/drone/drone_ws/build/uav_camera/CMakeFiles/install/strip.dir

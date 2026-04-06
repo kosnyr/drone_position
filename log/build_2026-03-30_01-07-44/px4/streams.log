@@ -1,0 +1,36 @@
+[6.620s] Invoking command in '/home/drone/drone_ws/src/px4': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data
+[8.098s] running egg_info
+[8.099s] creating ../../build/px4/px4.egg-info
+[8.105s] writing ../../build/px4/px4.egg-info/PKG-INFO
+[8.114s] writing dependency_links to ../../build/px4/px4.egg-info/dependency_links.txt
+[8.115s] writing entry points to ../../build/px4/px4.egg-info/entry_points.txt
+[8.117s] writing requirements to ../../build/px4/px4.egg-info/requires.txt
+[8.117s] writing top-level names to ../../build/px4/px4.egg-info/top_level.txt
+[8.118s] writing manifest file '../../build/px4/px4.egg-info/SOURCES.txt'
+[8.126s] reading manifest file '../../build/px4/px4.egg-info/SOURCES.txt'
+[8.137s] writing manifest file '../../build/px4/px4.egg-info/SOURCES.txt'
+[8.148s] running build
+[8.148s] running build_py
+[8.151s] creating /home/drone/drone_ws/build/px4/build
+[8.152s] creating /home/drone/drone_ws/build/px4/build/lib
+[8.156s] creating /home/drone/drone_ws/build/px4/build/lib/px4
+[8.158s] copying px4/__init__.py -> /home/drone/drone_ws/build/px4/build/lib/px4
+[8.161s] copying px4/px4.py -> /home/drone/drone_ws/build/px4/build/lib/px4
+[8.162s] running install
+[8.164s] running install_lib
+[8.166s] creating /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4
+[8.167s] copying /home/drone/drone_ws/build/px4/build/lib/px4/__init__.py -> /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4
+[8.170s] copying /home/drone/drone_ws/build/px4/build/lib/px4/px4.py -> /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4
+[8.171s] byte-compiling /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4/__init__.py to __init__.cpython-310.pyc
+[8.173s] byte-compiling /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4/px4.py to px4.cpython-310.pyc
+[8.173s] running install_data
+[8.174s] creating /home/drone/drone_ws/install/px4/share/ament_index
+[8.174s] creating /home/drone/drone_ws/install/px4/share/ament_index/resource_index
+[8.175s] creating /home/drone/drone_ws/install/px4/share/ament_index/resource_index/packages
+[8.175s] copying resource/px4 -> /home/drone/drone_ws/install/px4/share/ament_index/resource_index/packages
+[8.176s] copying package.xml -> /home/drone/drone_ws/install/px4/share/px4
+[8.176s] running install_egg_info
+[8.186s] Copying ../../build/px4/px4.egg-info to /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4-0.0.0-py3.10.egg-info
+[8.196s] running install_scripts
+[8.329s] writing list of installed files to '/home/drone/drone_ws/build/px4/install.log'
+[8.882s] Invoked command in '/home/drone/drone_ws/src/px4' returned '0': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data

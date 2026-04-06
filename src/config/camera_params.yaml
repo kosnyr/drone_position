@@ -1,0 +1,35 @@
+# fisheye Kannala-Brandt  RMS=2.5561 px
+
+image_width: 640
+image_height: 480
+camera_name: fisheye_camera
+distortion_model: equidistant
+
+target_width: 640
+target_height: 480
+
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.01993392, -0.15145677, 0.22034334, -0.11188104]
+
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [309.832691, 0.0, 330.687575,
+         0.0, 310.589188, 227.989163,
+         0.0, 0.0, 1.0]
+
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [309.832691, 0.0, 330.687575, 0.0,
+         0.0, 310.589188, 227.989163, 0.0,
+         0.0, 0.0, 1.0, 0.0]

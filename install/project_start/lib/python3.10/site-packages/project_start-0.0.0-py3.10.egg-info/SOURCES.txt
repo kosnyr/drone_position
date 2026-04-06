@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/project_start/project_start.egg-info/PKG-INFO
+../../build/project_start/project_start.egg-info/SOURCES.txt
+../../build/project_start/project_start.egg-info/dependency_links.txt
+../../build/project_start/project_start.egg-info/entry_points.txt
+../../build/project_start/project_start.egg-info/requires.txt
+../../build/project_start/project_start.egg-info/top_level.txt
+../../build/project_start/project_start.egg-info/zip-safe
+project_start/__init__.py
+resource/project_start
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

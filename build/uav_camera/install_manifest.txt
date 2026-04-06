@@ -1,0 +1,17 @@
+/home/drone/drone_ws/install/uav_camera/lib/uav_camera/camera_publisher
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/launch/camera_launch.py
+/home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/package_run_dependencies/uav_camera
+/home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/parent_prefix_path/uav_camera
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.sh
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.dsv
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.sh
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.dsv
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.bash
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.sh
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.zsh
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.dsv
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv
+/home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/packages/uav_camera
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig.cmake
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig-version.cmake
+/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.xml

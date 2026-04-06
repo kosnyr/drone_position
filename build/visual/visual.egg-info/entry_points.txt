@@ -1,0 +1,3 @@
+[console_scripts]
+visual_node = visual.visual_node:main
+

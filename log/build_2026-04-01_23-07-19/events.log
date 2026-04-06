@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.003146] (aruco_detector_node) JobQueued: {'identifier': 'aruco_detector_node', 'dependencies': OrderedDict()}
+[0.003434] (global_position_node) JobQueued: {'identifier': 'global_position_node', 'dependencies': OrderedDict()}
+[0.004179] (project_start) JobQueued: {'identifier': 'project_start', 'dependencies': OrderedDict()}
+[0.004438] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.004837] (uav_camera) JobQueued: {'identifier': 'uav_camera', 'dependencies': OrderedDict()}
+[0.005151] (aruco_detector_node) JobStarted: {'identifier': 'aruco_detector_node'}
+[0.081674] (global_position_node) JobStarted: {'identifier': 'global_position_node'}
+[0.114724] (-) TimerEvent: {}
+[0.147772] (project_start) JobStarted: {'identifier': 'project_start'}
+[0.215101] (-) TimerEvent: {}
+[0.313725] (px4) JobStarted: {'identifier': 'px4'}
+[0.316493] (-) TimerEvent: {}
+[0.419766] (-) TimerEvent: {}
+[0.521331] (-) TimerEvent: {}
+[0.622533] (-) TimerEvent: {}
+[0.723315] (-) TimerEvent: {}
+[0.824160] (-) TimerEvent: {}
+[0.924890] (-) TimerEvent: {}
+[1.025781] (-) TimerEvent: {}
+[1.126465] (-) TimerEvent: {}
+[1.227178] (-) TimerEvent: {}
+[1.327910] (-) TimerEvent: {}
+[1.428602] (-) TimerEvent: {}
+[1.529313] (-) TimerEvent: {}
+[1.630188] (-) TimerEvent: {}
+[1.730940] (-) TimerEvent: {}
+[1.831942] (-) TimerEvent: {}
+[1.933342] (-) TimerEvent: {}
+[2.034114] (-) TimerEvent: {}
+[2.134900] (-) TimerEvent: {}
+[2.235846] (-) TimerEvent: {}
+[2.336606] (-) TimerEvent: {}
+[2.437492] (-) TimerEvent: {}
+[2.538195] (-) TimerEvent: {}
+[2.638924] (-) TimerEvent: {}
+[2.739652] (-) TimerEvent: {}
+[2.840430] (-) TimerEvent: {}
+[2.941140] (-) TimerEvent: {}
+[3.041944] (-) TimerEvent: {}
+[3.142641] (-) TimerEvent: {}
+[3.244265] (-) TimerEvent: {}
+[3.346025] (-) TimerEvent: {}
+[3.446800] (-) TimerEvent: {}
+[3.547558] (-) TimerEvent: {}
+[3.648302] (-) TimerEvent: {}
+[3.749352] (-) TimerEvent: {}
+[3.850506] (-) TimerEvent: {}
+[3.951226] (-) TimerEvent: {}
+[4.051967] (-) TimerEvent: {}
+[4.152723] (-) TimerEvent: {}
+[4.253440] (-) TimerEvent: {}
+[4.354133] (-) TimerEvent: {}
+[4.454860] (-) TimerEvent: {}
+[4.555688] (-) TimerEvent: {}
+[4.656744] (-) TimerEvent: {}
+[4.760121] (-) TimerEvent: {}
+[4.861726] (-) TimerEvent: {}
+[4.962639] (-) TimerEvent: {}
+[5.063878] (-) TimerEvent: {}
+[5.164735] (-) TimerEvent: {}
+[5.265460] (-) TimerEvent: {}
+[5.366269] (-) TimerEvent: {}
+[5.466982] (-) TimerEvent: {}
+[5.567665] (-) TimerEvent: {}
+[5.668367] (-) TimerEvent: {}
+[5.769068] (-) TimerEvent: {}
+[5.869855] (-) TimerEvent: {}
+[5.970805] (-) TimerEvent: {}
+[6.071698] (-) TimerEvent: {}
+[6.172918] (-) TimerEvent: {}
+[6.274469] (-) TimerEvent: {}
+[6.376350] (-) TimerEvent: {}
+[6.479955] (-) TimerEvent: {}
+[6.581568] (-) TimerEvent: {}
+[6.682778] (-) TimerEvent: {}
+[6.783831] (-) TimerEvent: {}
+[6.884854] (-) TimerEvent: {}
+[6.986038] (-) TimerEvent: {}
+[7.087010] (-) TimerEvent: {}
+[7.188108] (-) TimerEvent: {}
+[7.289519] (-) TimerEvent: {}
+[7.391566] (-) TimerEvent: {}
+[7.492874] (-) TimerEvent: {}
+[7.593862] (-) TimerEvent: {}
+[7.694689] (-) TimerEvent: {}
+[7.795717] (-) TimerEvent: {}
+[7.896803] (-) TimerEvent: {}
+[7.998976] (-) TimerEvent: {}
+[8.099989] (-) TimerEvent: {}
+[8.200892] (-) TimerEvent: {}
+[8.302653] (-) TimerEvent: {}
+[8.405770] (-) TimerEvent: {}
+[8.507454] (-) TimerEvent: {}
+[8.608844] (-) TimerEvent: {}
+[8.709634] (-) TimerEvent: {}
+[8.810568] (-) TimerEvent: {}
+[8.911867] (-) TimerEvent: {}
+[9.012890] (-) TimerEvent: {}
+[9.115485] (-) TimerEvent: {}
+[9.221543] (-) TimerEvent: {}
+[9.324661] (-) TimerEvent: {}
+[9.427953] (-) TimerEvent: {}
+[9.529137] (global_position_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/global_position_node', 'build', '--build-base', '/home/drone/drone_ws/build/global_position_node/build', 'install', '--record', '/home/drone/drone_ws/build/global_position_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home[9.707009] (-) TimerEvent: {}
+[9.848899] (-) TimerEvent: {}
+[9.973258] (-) TimerEvent: {}
+[10.081539] (-) TimerEvent: {}
+[10.186316] (-) TimerEvent: {}
+[10.290282] (-) TimerEvent: {}
+[10.399488] (-) TimerEvent: {}
+[10.503198] (-) TimerEvent: {}
+[10.609908] (-) TimerEvent: {}
+[10.713701] (-) TimerEvent: {}
+[10.817578] (-) TimerEvent: {}
+[10.920843] (-) TimerEvent: {}
+[11.025441] (-) TimerEvent: {}
+[11.139515] (-) TimerEvent: {}
+[11.243522] (-) TimerEvent: {}
+[11.347737] (-) TimerEvent: {}
+[11.452475] (-) TimerEvent: {}
+[11.581894] (-) TimerEvent: {}
+[11.686443] (-) TimerEvent: {}
+[11.791479] (-) TimerEvent: {}
+[11.822526] (global_position_node) StdoutLine: {'line': b'running egg_info\n'}
+[11.866307] (global_position_node) StdoutLine: {'line': b'writing ../../build/global_position_node/global_position_node.egg-info/PKG-INFO\n'}
+[11.904743] (-) TimerEvent: {}
+[11.932426] (global_position_node) StdoutLine: {'line': b'writing dependency_links to ../../build/global_position_node/global_position_node.egg-info/dependency_links.txt\n'}
+[11.960213] (global_position_node) StdoutLine: {'line': b'writing entry points to ../../build/global_position_node/global_position_node.egg-info/entry_points.txt\n'}
+[11.981795] (global_position_node) StdoutLine: {'line': b'writing requirements to ../../build/global_position_node/global_position_node.egg-info/requires.txt\n'}
+[12.002616] (global_position_node) StdoutLine: {'line': b'writing top-level names to ../../build/global_position_node/global_position_node.egg-info/top_level.txt\n'}
+[12.046796] (-) TimerEvent: {}
+[12.066088] (global_position_node) StdoutLine: {'line': b"reading manifest file '../../build/global_position_node/global_position_node.egg-info/SOURCES.txt'\n"}
+[12.070316] (global_position_node) StdoutLine: {'line': b"writing manifest file '../../build/global_position_node/global_position_node.egg-info/SOURCES.txt'\n"}
+[12.074121] (global_position_node) StdoutLine: {'line': b'running build\n'}
+[12.082361] (global_position_node) StdoutLine: {'line': b'running build_py\n'}
+[12.092322] (global_position_node) StdoutLine: {'line': b'running install\n'}
+[12.104920] (global_position_node) StdoutLine: {'line': b'running install_lib\n'}
+[12.139051] (global_position_node) StdoutLine: {'line': b'running install_data\n'}
+[12.161352] (-) TimerEvent: {}
+[12.180727] (global_position_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.204664] (global_position_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.231150] (global_position_node) StdoutLine: {'line': b'Copying ../../build/global_position_node/global_position_node.egg-info to /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position_node-0.0.0-py3.10.egg-info\n'}
+[12.250850] (global_position_node) StderrLine: {'line': b"error: [Errno 28] No space left on device: '../../build/global_position_node/global_position_node.egg-info/dependency_links.txt' -> '/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position_node-0.0.0-py3.10.egg-info/dependency_links.txt'\n"}
+[12.276812] (-) TimerEvent: {}
+[12.378891] (global_position_node) CommandEnded: {'returncode': 1}
+[12.391934] (-) TimerEvent: {}
+[12.396713] (global_position_node) JobEnded: {'identifier': 'global_position_node', 'rc': 1}
+[12.438427] (px4) StdoutLine: {'line': b'running egg_info\n'}
+[12.489328] (px4) StdoutLine: {'line': b'writing ../../build/px4/px4.egg-info/PKG-INFO\n'}
+[12.518464] (-) TimerEvent: {}
+[12.529155] (px4) StdoutLine: {'line': b'writing dependency_links to ../../build/px4/px4.egg-info/dependency_links.txt\n'}
+[12.531270] (px4) StdoutLine: {'line': b'writing entry points to ../../build/px4/px4.egg-info/entry_points.txt\n'}
+[12.532801] (px4) StdoutLine: {'line': b'writing requirements to ../../build/px4/px4.egg-info/requires.txt\n'}
+[12.547208] (px4) StdoutLine: {'line': b'writing top-level names to ../../build/px4/px4.egg-info/top_level.txt\n'}
+[1

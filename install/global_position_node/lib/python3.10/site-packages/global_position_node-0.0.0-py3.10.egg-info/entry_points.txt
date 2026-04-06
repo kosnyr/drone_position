@@ -1,0 +1,3 @@
+[console_scripts]
+global_position = global_position_node.global_position:main
+

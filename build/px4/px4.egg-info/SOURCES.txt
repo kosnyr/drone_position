@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/px4/px4.egg-info/PKG-INFO
+../../build/px4/px4.egg-info/SOURCES.txt
+../../build/px4/px4.egg-info/dependency_links.txt
+../../build/px4/px4.egg-info/entry_points.txt
+../../build/px4/px4.egg-info/requires.txt
+../../build/px4/px4.egg-info/top_level.txt
+../../build/px4/px4.egg-info/zip-safe
+px4/__init__.py
+px4/px4.py
+resource/px4
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

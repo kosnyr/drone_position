@@ -1,0 +1,19 @@
+[3.013s] Invoking command in '/home/drone/drone_ws/build/visual': PYTHONPATH=/home/drone/drone_ws/build/visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/drone_ws/build/visual/build --no-deps symlink_data --force
+[4.273s] running develop
+[5.114s] running egg_info
+[5.115s] writing visual.egg-info/PKG-INFO
+[5.116s] writing dependency_links to visual.egg-info/dependency_links.txt
+[5.117s] writing entry points to visual.egg-info/entry_points.txt
+[5.118s] writing requirements to visual.egg-info/requires.txt
+[5.118s] writing top-level names to visual.egg-info/top_level.txt
+[5.126s] reading manifest file 'visual.egg-info/SOURCES.txt'
+[5.130s] writing manifest file 'visual.egg-info/SOURCES.txt'
+[5.136s] running build_ext
+[5.137s] Creating /home/drone/drone_ws/install/visual/lib/python3.10/site-packages/visual.egg-link (link to .)
+[5.141s] Installing visual_node script to /home/drone/drone_ws/install/visual/lib/visual
+[5.142s] 
+[5.143s] Installed /home/drone/drone_ws/build/visual
+[5.143s] running symlink_data
+[5.144s] symbolically linking /home/drone/drone_ws/build/visual/resource/visual -> /home/drone/drone_ws/install/visual/share/ament_index/resource_index/packages
+[5.145s] symbolically linking /home/drone/drone_ws/build/visual/package.xml -> /home/drone/drone_ws/install/visual/share/visual
+[5.282s] Invoked command in '/home/drone/drone_ws/build/visual' returned '0': PYTHONPATH=/home/drone/drone_ws/build/visual/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/visual/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/drone_ws/build/visual/build --no-deps symlink_data --force
