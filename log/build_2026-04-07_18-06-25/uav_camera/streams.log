@@ -1,0 +1,24 @@
+[2.669s] Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[3.433s] [100%] Built target camera_publisher
+[3.486s] Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[3.536s] Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera
+[3.570s] -- Install configuration: ""
+[3.584s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/lib/uav_camera/camera_publisher
+[3.587s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch
+[3.592s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch/camera_launch.py
+[3.594s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/package_run_dependencies/uav_camera
+[3.597s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/parent_prefix_path/uav_camera
+[3.604s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.sh
+[3.605s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.dsv
+[3.606s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.sh
+[3.606s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.dsv
+[3.606s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.bash
+[3.607s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.sh
+[3.607s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.zsh
+[3.608s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.dsv
+[3.610s] -- Installing: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv
+[3.610s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/packages/uav_camera
+[3.611s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig.cmake
+[3.611s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig-version.cmake
+[3.611s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.xml
+[3.612s] Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera

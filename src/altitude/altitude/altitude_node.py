@@ -17,6 +17,19 @@ from geometry_msgs.msg import Vector3
 from std_msgs.msg import Float64
 
 
+def euler_to_rotation_matrix(roll: float, pitch: float, yaw: float) -> np.ndarray:
+    """Матрица поворота из углов Эйлера (ZYX convention)"""
+    cr, sr = np.cos(roll), np.sin(roll)
+    cp, sp = np.cos(pitch), np.sin(pitch)
+    cy, sy = np.cos(yaw), np.sin(yaw)
+    
+    Rx = np.array([[1, 0, 0], [0, cr, -sr], [0, sr, cr]])
+    Ry = np.array([[cp, 0, sp], [0, 1, 0], [-sp, 0, cp]])
+    Rz = np.array([[cy, -sy, 0], [sy, cy, 0], [0, 0, 1]])
+    
+    return Rz @ Ry @ Rx
+
+
 class AltitudeEstimatorNode(Node):
 
     def __init__(self):
@@ -24,8 +37,10 @@ class AltitudeEstimatorNode(Node):
 
         # ── Параметры ──────────────────────────────────────────────────────
         self.declare_parameter('max_tilt_angle', 30.0)  # градусы, максимальный наклон для валидных измерений
+        self.declare_parameter('filter_alpha', 0.3)  # 0-1, меньше = больше сглаживание
 
         self.max_tilt = np.radians(self.get_parameter('max_tilt_angle').value)
+        self.alpha = self.get_parameter('filter_alpha').value
 
         # ── Состояние ──────────────────────────────────────────────────────
         self._lock = threading.Lock()
@@ -34,6 +49,7 @@ class AltitudeEstimatorNode(Node):
         self._pitch = 0.0
         self._last_range_time = None
         self._last_attitude_time = None
+        self._filtered_altitude = None
 
         # ── QoS ────────────────────────────────────────────────────────────
         qos = QoSProfile(
@@ -48,7 +64,6 @@ class AltitudeEstimatorNode(Node):
 
         # ── Издатели ───────────────────────────────────────────────────────
         self.pub_altitude = self.create_publisher(Float64, '/uav/altitude', qos)
-        self.pub_altitude_raw = self.create_publisher(Float64, '/uav/altitude_raw', qos)
 
         self.get_logger().info('AltitudeEstimatorNode ready')
 
@@ -72,11 +87,6 @@ class AltitudeEstimatorNode(Node):
             # Проверяем валидность данных
             if self._range_distance is None or self._range_distance <= 0:
                 return
-            
-            # Публикуем сырое расстояние
-            raw_msg = Float64()
-            raw_msg.data = self._range_distance
-            self.pub_altitude_raw.publish(raw_msg)
 
             # Вычисляем скорректированную высоту
             altitude = self._calculate_altitude(
@@ -86,8 +96,17 @@ class AltitudeEstimatorNode(Node):
             )
 
             if altitude is not None:
+                # Применяем экспоненциальный фильтр
+                if self._filtered_altitude is None:
+                    self._filtered_altitude = altitude
+                else:
+                    self._filtered_altitude = (
+                        self.alpha * altitude + 
+                        (1 - self.alpha) * self._filtered_altitude
+                    )
+                
                 alt_msg = Float64()
-                alt_msg.data = altitude
+                alt_msg.data = self._filtered_altitude
                 self.pub_altitude.publish(alt_msg)
 
     # ─────────────────────────────────────────────────────────────────────
@@ -96,7 +115,10 @@ class AltitudeEstimatorNode(Node):
 
     def _calculate_altitude(self, distance: float, roll: float, pitch: float) -> float:
         """
-        Вычисляет истинную высоту с учетом наклона дрона
+        Правильный расчет высоты с учетом наклона
+        
+        Луч дальномера направлен вдоль оси Z дрона (вниз в системе дрона).
+        При наклоне дрона нужно найти вертикальную составляющую.
         
         Args:
             distance: расстояние от дальномера (м)
@@ -115,9 +137,18 @@ class AltitudeEstimatorNode(Node):
             )
             return None
 
-        # Вычисляем вертикальную составляющую
-        # h = d * cos(pitch) * cos(roll)
-        altitude = distance * np.cos(pitch) * np.cos(roll)
+        # Вектор луча дальномера в системе дрона: [0, 0, distance]
+        # (направлен вниз по оси Z)
+        ray_body = np.array([0, 0, distance])
+        
+        # Матрица поворота от системы дрона к мировой
+        R = euler_to_rotation_matrix(roll, pitch, 0)  # yaw не влияет на высоту
+        
+        # Преобразуем вектор в мировую систему
+        ray_world = R @ ray_body
+        
+        # Вертикальная составляющая (Z в мировой системе)
+        altitude = abs(ray_world[2])
 
         # Дополнительная проверка на разумность
         if altitude < 0 or altitude > 100:  # 100м - максимальная разумная высота

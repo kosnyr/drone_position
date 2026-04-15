@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_info_checker/camera_info_checker.egg-info
+writing ../../build/camera_info_checker/camera_info_checker.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_info_checker/camera_info_checker.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_info_checker/camera_info_checker.egg-info/entry_points.txt
+writing requirements to ../../build/camera_info_checker/camera_info_checker.egg-info/requires.txt
+writing top-level names to ../../build/camera_info_checker/camera_info_checker.egg-info/top_level.txt
+writing manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drone/drone_ws/build/camera_info_checker/build
+creating /home/drone/drone_ws/build/camera_info_checker/build/lib
+creating /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+copying camera_info_checker/camera_info_checker_node.py -> /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+copying camera_info_checker/__init__.py -> /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+running install
+running install_lib
+creating /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+copying /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker/camera_info_checker_node.py -> /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+copying /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker/__init__.py -> /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+byte-compiling /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker/camera_info_checker_node.py to camera_info_checker_node.cpython-310.pyc
+byte-compiling /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index
+creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index
+creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index/packages
+copying resource/camera_info_checker -> /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index/packages
+copying package.xml -> /home/drone/drone_ws/install/camera_info_checker/share/camera_info_checker
+running install_egg_info
+Copying ../../build/camera_info_checker/camera_info_checker.egg-info to /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_info script to /home/drone/drone_ws/install/camera_info_checker/lib/camera_info_checker
+writing list of installed files to '/home/drone/drone_ws/build/camera_info_checker/install.log'

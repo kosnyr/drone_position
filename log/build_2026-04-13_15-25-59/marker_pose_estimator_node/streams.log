@@ -1,0 +1,21 @@
+[4.562s] Invoking command in '/home/drone/drone_ws/src/marker_pose_estimator': AMENT_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs LD_LIBRARY_PATH=/home/drone/drone_ws/install/drone_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_pose_estimator_node build --build-base /home/drone/drone_ws/build/marker_pose_estimator_node/build install --record /home/drone/drone_ws/build/marker_pose_estimator_node/install.log --single-version-externally-managed install_data
+[6.250s] running egg_info
+[6.253s] writing ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/PKG-INFO
+[6.262s] writing dependency_links to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/dependency_links.txt
+[6.268s] writing entry points to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/entry_points.txt
+[6.273s] writing requirements to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/requires.txt
+[6.281s] writing top-level names to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/top_level.txt
+[6.288s] reading manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'
+[6.292s] writing manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'
+[6.297s] running build
+[6.302s] running build_py
+[6.303s] running install
+[6.304s] running install_lib
+[6.304s] running install_data
+[6.304s] running install_egg_info
+[6.305s] removing '/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info' (and everything under it)
+[6.306s] Copying ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info
+[6.319s] running install_scripts
+[6.410s] Installing marker_pose_estimator script to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/marker_pose_estimator
+[6.412s] writing list of installed files to '/home/drone/drone_ws/build/marker_pose_estimator_node/install.log'
+[6.615s] Invoked command in '/home/drone/drone_ws/src/marker_pose_estimator' returned '0': AMENT_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs LD_LIBRARY_PATH=/home/drone/drone_ws/install/drone_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_pose_estimator_node build --build-base /home/drone/drone_ws/build/marker_pose_estimator_node/build install --record /home/drone/drone_ws/build/marker_pose_estimator_node/install.log --single-version-externally-managed install_data

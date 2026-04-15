@@ -1,0 +1,21 @@
+[7.533s] Invoking command in '/home/drone/drone_ws/src/image_preprocessor': PYTHONPATH=/home/drone/drone_ws/build/image_preprocessor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_preprocessor_node build --build-base /home/drone/drone_ws/build/image_preprocessor_node/build install --record /home/drone/drone_ws/build/image_preprocessor_node/install.log --single-version-externally-managed install_data
+[9.573s] running egg_info
+[9.578s] writing ../../build/image_preprocessor_node/image_preprocessor.egg-info/PKG-INFO
+[9.580s] writing dependency_links to ../../build/image_preprocessor_node/image_preprocessor.egg-info/dependency_links.txt
+[9.583s] writing entry points to ../../build/image_preprocessor_node/image_preprocessor.egg-info/entry_points.txt
+[9.586s] writing requirements to ../../build/image_preprocessor_node/image_preprocessor.egg-info/requires.txt
+[9.588s] writing top-level names to ../../build/image_preprocessor_node/image_preprocessor.egg-info/top_level.txt
+[9.606s] reading manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'
+[9.619s] writing manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'
+[9.623s] running build
+[9.624s] running build_py
+[9.627s] running install
+[9.629s] running install_lib
+[9.640s] running install_data
+[9.642s] running install_egg_info
+[9.667s] removing '/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info' (and everything under it)
+[9.673s] Copying ../../build/image_preprocessor_node/image_preprocessor.egg-info to /home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info
+[9.695s] running install_scripts
+[9.856s] Installing image_preprocessor script to /home/drone/drone_ws/install/image_preprocessor_node/lib/image_preprocessor
+[9.884s] writing list of installed files to '/home/drone/drone_ws/build/image_preprocessor_node/install.log'
+[11.324s] Invoked command in '/home/drone/drone_ws/src/image_preprocessor' returned '0': PYTHONPATH=/home/drone/drone_ws/build/image_preprocessor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_preprocessor_node build --build-base /home/drone/drone_ws/build/image_preprocessor_node/build install --record /home/drone/drone_ws/build/image_preprocessor_node/install.log --single-version-externally-managed install_data

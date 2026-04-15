@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.002927] (-) JobUnselected: {'identifier': 'altitude'}
+[0.003209] (-) JobUnselected: {'identifier': 'aruco_detector_node'}
+[0.004220] (-) JobUnselected: {'identifier': 'camera_info_checker'}
+[0.004405] (-) JobUnselected: {'identifier': 'drone_msgs'}
+[0.005194] (-) JobUnselected: {'identifier': 'drone_utils'}
+[0.005496] (-) JobUnselected: {'identifier': 'global_position_node'}
+[0.005917] (-) JobUnselected: {'identifier': 'image_preprocessor_node'}
+[0.006214] (-) JobUnselected: {'identifier': 'marker_pose_estimator_node'}
+[0.007725] (-) JobUnselected: {'identifier': 'position_fusion_node'}
+[0.011168] (-) JobUnselected: {'identifier': 'project_start'}
+[0.011926] (-) JobUnselected: {'identifier': 'px4'}
+[0.012585] (-) JobUnselected: {'identifier': 'rangefinder'}
+[0.012972] (-) JobUnselected: {'identifier': 'uav_camera'}
+[0.013704] (camera_calibration) JobQueued: {'identifier': 'camera_calibration', 'dependencies': OrderedDict()}
+[0.014706] (camera_calibration) JobStarted: {'identifier': 'camera_calibration'}
+[0.098158] (-) TimerEvent: {}
+[0.198982] (-) TimerEvent: {}
+[0.300447] (-) TimerEvent: {}
+[0.401411] (-) TimerEvent: {}
+[0.502334] (-) TimerEvent: {}
+[0.603203] (-) TimerEvent: {}
+[0.704045] (-) TimerEvent: {}
+[0.804866] (-) TimerEvent: {}
+[0.905788] (-) TimerEvent: {}
+[1.007065] (-) TimerEvent: {}
+[1.107930] (-) TimerEvent: {}
+[1.208802] (-) TimerEvent: {}
+[1.309712] (-) TimerEvent: {}
+[1.410475] (-) TimerEvent: {}
+[1.511153] (-) TimerEvent: {}
+[1.611857] (-) TimerEvent: {}
+[1.712720] (-) TimerEvent: {}
+[1.813866] (-) TimerEvent: {}
+[1.914660] (-) TimerEvent: {}
+[2.015337] (-) TimerEvent: {}
+[2.116078] (-) TimerEvent: {}
+[2.216923] (-) TimerEvent: {}
+[2.318032] (-) TimerEvent: {}
+[2.418711] (-) TimerEvent: {}
+[2.519351] (-) TimerEvent: {}
+[2.620014] (-) TimerEvent: {}
+[2.720671] (-) TimerEvent: {}
+[2.821485] (-) TimerEvent: {}
+[2.922447] (-) TimerEvent: {}
+[3.023113] (-) TimerEvent: {}
+[3.123804] (-) TimerEvent: {}
+[3.224837] (-) TimerEvent: {}
+[3.325537] (-) TimerEvent: {}
+[3.426267] (-) TimerEvent: {}
+[3.527070] (-) TimerEvent: {}
+[3.628294] (-) TimerEvent: {}
+[3.637761] (camera_calibration) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_calibration', 'build', '--build-base', '/home/drone/drone_ws/build/camera_calibration/build', 'install', '--record', '/home/drone/drone_ws/build/camera_calibration/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/camera_calibration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 49397 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-9b749137-9871-4367-9831-f097606654db.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/drone/drone_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/uav_camera:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/drone_utils:/home/drone/drone_ws/install/drone_untils:/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/camera_info_checker:/home/drone/drone_ws/install/camera_calibration:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/camera_calibration', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 49397 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages:/home/drone/drone_ws/build/visual:/home/drone/drone_ws/install/visual/lib/python3.10/site-packages:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages:/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages:/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/uav_camera:/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[3.728487] (-) TimerEvent: {}
+[3.829247] (-) TimerEvent: {}
+[3.930048] (-) TimerEvent: {}
+[4.030760] (-) TimerEvent: {}
+[4.131474] (-) TimerEvent: {}
+[4.232308] (-) TimerEvent: {}
+[4.333025] (-) TimerEvent: {}
+[4.433763] (-) TimerEvent: {}
+[4.534457] (-) TimerEvent: {}
+[4.635150] (-) TimerEvent: {}
+[4.735808] (-) TimerEvent: {}
+[4.836461] (-) TimerEvent: {}
+[4.934020] (camera_calibration) StdoutLine: {'line': b'running egg_info\n'}
+[4.936626] (-) TimerEvent: {}
+[4.937461] (camera_calibration) StdoutLine: {'line': b'writing ../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO\n'}
+[4.938706] (camera_calibration) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt\n'}
+[4.939585] (camera_calibration) StdoutLine: {'line': b'writing entry points to ../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt\n'}
+[4.940509] (camera_calibration) StdoutLine: {'line': b'writing requirements to ../../build/camera_calibration/camera_calibration.egg-info/requires.txt\n'}
+[4.941348] (camera_calibration) StdoutLine: {'line': b'writing top-level names to ../../build/camera_calibration/camera_calibration.egg-info/top_level.txt\n'}
+[4.950115] (camera_calibration) StdoutLine: {'line': b"reading manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'\n"}
+[4.958298] (camera_calibration) StdoutLine: {'line': b"writing manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'\n"}
+[4.958988] (camera_calibration) StdoutLine: {'line': b'running build\n'}
+[4.959530] (camera_calibration) StdoutLine: {'line': b'running build_py\n'}
+[4.960075] (camera_calibration) StdoutLine: {'line': b'copying camera_calibration/camera_calibration_node.py -> /home/drone/drone_ws/build/camera_calibration/build/lib/camera_calibration\n'}
+[4.961672] (camera_calibration) StdoutLine: {'line': b'running install\n'}
+[4.963157] (camera_calibration) StdoutLine: {'line': b'running install_lib\n'}
+[4.967348] (camera_calibration) StdoutLine: {'line': b'copying /home/drone/drone_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibration_node.py -> /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration\n'}
+[4.971186] (camera_calibration) StdoutLine: {'line': b'byte-compiling /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_calibration_node.py to camera_calibration_node.cpython-310.pyc\n'}
+[4.984161] (camera_calibration) StdoutLine: {'line': b'running install_data\n'}
+[4.984925] (camera_calibration) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.992749] (camera_calibration) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.994999] (camera_calibration) StdoutLine: {'line': b'Copying ../../build/camera_calibration/camera_calibration.egg-info to /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-0.0.0-py3.10.egg-info\n'}
+[5.001796] (camera_calibration) StdoutLine: {'line': b'running install_scripts\n'}
+[5.036819] (-) TimerEvent: {}
+[5.086545] (camera_calibration) StdoutLine: {'line': b'Installing camera_calibration script to /home/drone/drone_ws/install/camera_calibration/lib/camera_calibration\n'}
+[5.088236] (camera_calibration) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/camera_calibration/install.log'\n"}
+[5.137071] (-) TimerEvent: {}
+[5.208267] (camera_calibration) CommandEnded: {'returncode': 0}
+[5.237404] (-) TimerEvent: {}
+[5.263946] (camera_calibration) JobEnded: {'identifier': 'camera_calibration', 'rc': 0}
+[5.267512] (-) EventReactorShutdown: {}

@@ -1,0 +1,214 @@
+[0.270s] Invoking command in '/home/drone/drone_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/drone_msgs -- -j4 -l4
+[3.678s] [  1%] Built target drone_msgs__rs
+[3.681s] [  3%] Built target drone_msgs__cpp
+[3.681s] [ 14%] Built target drone_msgs__rosidl_generator_c
+[3.682s] [ 14%] Built target ament_cmake_python_copy_drone_msgs
+[3.682s] [ 25%] Built target drone_msgs__rosidl_typesupport_introspection_cpp
+[3.683s] [ 35%] Built target drone_msgs__rosidl_typesupport_fastrtps_cpp
+[3.683s] [ 46%] Built target drone_msgs__rosidl_typesupport_cpp
+[3.683s] [ 57%] Built target drone_msgs__rosidl_typesupport_fastrtps_c
+[3.684s] [ 67%] Built target drone_msgs__rosidl_typesupport_introspection_c
+[3.684s] [ 78%] Built target drone_msgs__rosidl_typesupport_c
+[3.685s] [ 78%] Built target drone_msgs
+[3.685s] [ 80%] Built target drone_msgs__py
+[3.685s] [ 89%] Built target drone_msgs__rosidl_generator_py
+[3.686s] [ 92%] Built target drone_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.686s] [ 96%] Built target drone_msgs__rosidl_typesupport_c__pyext
+[3.687s] [100%] Built target drone_msgs__rosidl_typesupport_introspection_c__pyext
+[3.687s] running egg_info
+[3.687s] writing drone_msgs.egg-info/PKG-INFO
+[3.688s] writing dependency_links to drone_msgs.egg-info/dependency_links.txt
+[3.688s] writing top-level names to drone_msgs.egg-info/top_level.txt
+[3.688s] reading manifest file 'drone_msgs.egg-info/SOURCES.txt'
+[3.689s] writing manifest file 'drone_msgs.egg-info/SOURCES.txt'
+[3.689s] [100%] Built target ament_cmake_python_build_drone_msgs_egg
+[5.267s] Invoked command in '/home/drone/drone_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/drone_msgs -- -j4 -l4
+[5.323s] Invoking command in '/home/drone/drone_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/drone_msgs
+[5.380s] -- Install configuration: ""
+[5.384s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/rosidl_interfaces/drone_msgs
+[5.387s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.389s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.390s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection_array.h
+[5.391s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection.h
+[5.391s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.392s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose.h
+[5.392s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.393s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__functions.h
+[5.394s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__struct.h
+[5.396s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__functions.h
+[5.400s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.h
+[5.401s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__struct.h
+[5.401s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__functions.c
+[5.402s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__functions.c
+[5.402s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__functions.h
+[5.403s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.h
+[5.404s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__functions.c
+[5.406s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__struct.h
+[5.407s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__functions.h
+[5.407s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.h
+[5.408s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__functions.c
+[5.409s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__struct.h
+[5.409s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.h
+[5.416s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose_array.h
+[5.416s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/library_path.sh
+[5.417s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/library_path.dsv
+[5.426s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_c.so
+[5.429s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.432s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.435s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.440s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_fastrtps_c.h
+[5.445s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_fastrtps_c.h
+[5.449s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h
+[5.454s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h
+[5.462s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.466s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_c.so
+[5.472s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.474s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.474s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.475s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.c
+[5.476s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h
+[5.484s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h
+[5.485s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.c
+[5.485s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.c
+[5.486s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_introspection_c.h
+[5.487s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.c
+[5.487s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_introspection_c.h
+[5.488s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.489s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_c.so
+[5.489s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_c.so
+[5.502s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.510s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.511s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.512s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose.hpp
+[5.513s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.513s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__builder.hpp
+[5.523s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__builder.hpp
+[5.525s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__traits.hpp
+[5.533s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__traits.hpp
+[5.534s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.hpp
+[5.534s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__struct.hpp
+[5.535s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.hpp
+[5.536s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__struct.hpp
+[5.536s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.hpp
+[5.537s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__struct.hpp
+[5.537s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__builder.hpp
+[5.541s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__traits.hpp
+[5.542s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__traits.hpp
+[5.543s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__builder.hpp
+[5.545s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__struct.hpp
+[5.565s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.hpp
+[5.568s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection.hpp
+[5.574s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose_array.hpp
+[5.577s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection_array.hpp
+[5.579s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.585s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.590s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.591s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.591s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.592s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/dds_fastrtps
+[5.593s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.593s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.606s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.613s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.618s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[5.623s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[5.627s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail
+[5.632s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.637s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[5.641s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.cpp
+[5.646s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[5.651s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.cpp
+[5.655s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[5.659s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.cpp
+[5.667s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.cpp
+[5.669s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_cpp.so
+[5.671s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_cpp.so
+[5.673s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.sh
+[5.675s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.dsv
+[5.678s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info
+[5.680s] -- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.683s] -- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.685s] -- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.687s] -- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.690s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs
+[5.692s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.694s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg
+[5.696s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection.py
+[5.703s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose.py
+[5.704s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_s.c
+[5.705s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_array_s.c
+[5.705s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/__init__.py
+[5.708s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_s.c
+[5.710s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_array_s.c
+[5.714s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_array.py
+[5.716s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_array.py
+[5.718s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.721s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/__init__.py
+[5.723s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.725s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.727s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_c.c
+[5.730s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.732s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/libdrone_msgs__rosidl_generator_py.so
+[6.072s] Listing '/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs'...
+[6.073s] Listing '/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg'...
+[6.142s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.147s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.151s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.155s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_py.so
+[6.161s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/rust_packages/drone_msgs
+[6.162s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust
+[6.163s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/Cargo.toml
+[6.163s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src
+[6.164s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg
+[6.165s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg/rmw.rs
+[6.166s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg.rs
+[6.171s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/lib.rs
+[6.172s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/build.rs
+[6.173s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetection.idl
+[6.173s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetectionArray.idl
+[6.174s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPose.idl
+[6.176s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPoseArray.idl
+[6.177s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetection.msg
+[6.178s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetectionArray.msg
+[6.184s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPose.msg
+[6.184s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPoseArray.msg
+[6.185s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/package_run_dependencies/drone_msgs
+[6.186s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/parent_prefix_path/drone_msgs
+[6.187s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.sh
+[6.187s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.dsv
+[6.195s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/path.sh
+[6.196s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/path.dsv
+[6.197s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.bash
+[6.198s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.sh
+[6.199s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.zsh
+[6.200s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.dsv
+[6.201s] -- Installing: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.dsv
+[6.205s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/packages/drone_msgs
+[6.208s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport.cmake
+[6.209s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.213s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.214s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.217s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.218s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.221s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport.cmake
+[6.222s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.229s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cppExport.cmake
+[6.233s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.233s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.241s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.242s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.245s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport.cmake
+[6.246s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.249s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport.cmake
+[6.250s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.251s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake-extras.cmake
+[6.252s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.253s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.254s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.255s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.256s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.265s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.267s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig.cmake
+[6.268s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig-version.cmake
+[6.270s] -- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.xml
+[6.304s] Invoked command in '/home/drone/drone_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/drone_msgs

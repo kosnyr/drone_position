@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001116] (-) JobUnselected: {'identifier': 'altitude'}
+[0.001678] (-) JobUnselected: {'identifier': 'aruco_detector_node'}
+[0.001936] (-) JobUnselected: {'identifier': 'global_position_node'}
+[0.002039] (-) JobUnselected: {'identifier': 'project_start'}
+[0.002166] (-) JobUnselected: {'identifier': 'px4'}
+[0.002526] (-) JobUnselected: {'identifier': 'rangefinder'}
+[0.002807] (-) JobUnselected: {'identifier': 'uav_camera'}
+[0.003099] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/drone_untils/drone_untils.egg-info
+writing ../../build/drone_untils/drone_untils.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_untils/drone_untils.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_untils/drone_untils.egg-info/entry_points.txt
+writing requirements to ../../build/drone_untils/drone_untils.egg-info/requires.txt
+writing top-level names to ../../build/drone_untils/drone_untils.egg-info/top_level.txt
+writing manifest file '../../build/drone_untils/drone_untils.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone_untils/drone_untils.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_untils/drone_untils.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drone/drone_ws/build/drone_untils/build
+creating /home/drone/drone_ws/build/drone_untils/build/lib
+creating /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils
+copying drone_untils/kalman_filter.py -> /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils
+copying drone_untils/__init__.py -> /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils
+copying drone_untils/aperiodic_filter.py -> /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils
+running install
+running install_lib
+creating /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils
+copying /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils/kalman_filter.py -> /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils
+copying /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils/__init__.py -> /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils
+copying /home/drone/drone_ws/build/drone_untils/build/lib/drone_untils/aperiodic_filter.py -> /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils
+byte-compiling /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils/kalman_filter.py to kalman_filter.cpython-310.pyc
+byte-compiling /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils/aperiodic_filter.py to aperiodic_filter.cpython-310.pyc
+running install_data
+creating /home/drone/drone_ws/install/drone_untils/share/ament_index
+creating /home/drone/drone_ws/install/drone_untils/share/ament_index/resource_index
+creating /home/drone/drone_ws/install/drone_untils/share/ament_index/resource_index/packages
+copying resource/drone_untils -> /home/drone/drone_ws/install/drone_untils/share/ament_index/resource_index/packages
+copying package.xml -> /home/drone/drone_ws/install/drone_untils/share/drone_untils
+running install_egg_info
+Copying ../../build/drone_untils/drone_untils.egg-info to /home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages/drone_untils-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/drone/drone_ws/build/drone_untils/install.log'

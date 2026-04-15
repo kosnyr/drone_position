@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.002440] (-) JobUnselected: {'identifier': 'altitude'}
+[0.002663] (-) JobUnselected: {'identifier': 'aruco_detector_node'}
+[0.003332] (-) JobUnselected: {'identifier': 'drone_msgs'}
+[0.003668] (-) JobUnselected: {'identifier': 'drone_utils'}
+[0.004101] (-) JobUnselected: {'identifier': 'global_position_node'}
+[0.004349] (-) JobUnselected: {'identifier': 'image_preprocessor_node'}
+[0.004498] (-) JobUnselected: {'identifier': 'project_start'}
+[0.004619] (-) JobUnselected: {'identifier': 'px4'}
+[0.004744] (-) JobUnselected: {'identifier': 'uav_camera'}
+[0.004863] (rangefinder) JobQueued: {'identifier': 'rangefinder', 'dependencies': OrderedDict()}
+[0.004994] (marker_pose_estimator_node) JobQueued: {'identifier': 'marker_pose_estimator_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs')])}
+[0.005131] (position_fusion_node) JobQueued: {'identifier': 'position_fusion_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs'), ('drone_utils', '/home/drone/drone_ws/install/drone_utils')])}
+[0.005393] (rangefinder) JobStarted: {'identifier': 'rangefinder'}
+[0.073412] (marker_pose_estimator_node) JobStarted: {'identifier': 'marker_pose_estimator_node'}
+[0.098132] (-) TimerEvent: {}
+[0.107594] (position_fusion_node) JobStarted: {'identifier': 'position_fusion_node'}
+[0.198363] (-) TimerEvent: {}
+[0.300159] (-) TimerEvent: {}
+[0.401202] (-) TimerEvent: {}
+[0.502245] (-) TimerEvent: {}
+[0.603109] (-) TimerEvent: {}
+[0.703857] (-) TimerEvent: {}
+[0.804611] (-) TimerEvent: {}
+[0.905450] (-) TimerEvent: {}
+[1.006297] (-) TimerEvent: {}
+[1.107025] (-) TimerEvent: {}
+[1.207738] (-) TimerEvent: {}
+[1.308477] (-) TimerEvent: {}
+[1.409276] (-) TimerEvent: {}
+[1.510166] (-) TimerEvent: {}
+[1.611354] (-) TimerEvent: {}
+[1.712058] (-) TimerEvent: {}
+[1.812805] (-) TimerEvent: {}
+[1.913558] (-) TimerEvent: {}
+[2.014302] (-) TimerEvent: {}
+[2.115106] (-) TimerEvent: {}
+[2.215816] (-) TimerEvent: {}
+[2.316533] (-) TimerEvent: {}
+[2.417232] (-) TimerEvent: {}
+[2.517921] (-) TimerEvent: {}
+[2.618637] (-) TimerEvent: {}
+[2.719434] (-) TimerEvent: {}
+[2.820275] (-) TimerEvent: {}
+[2.921446] (-) TimerEvent: {}
+[3.022260] (-) TimerEvent: {}
+[3.123046] (-) TimerEvent: {}
+[3.223831] (-) TimerEvent: {}
+[3.324587] (-) TimerEvent: {}
+[3.425302] (-) TimerEvent: {}
+[3.525973] (-) TimerEvent: {}
+[3.626657] (-) TimerEvent: {}
+[3.727387] (-) TimerEvent: {}
+[3.828226] (-) TimerEvent: {}
+[3.928985] (-) TimerEvent: {}
+[4.029808] (-) TimerEvent: {}
+[4.130660] (-) TimerEvent: {}
+[4.231832] (-) TimerEvent: {}
+[4.334401] (-) TimerEvent: {}
+[4.439472] (-) TimerEvent: {}
+[4.543059] (-) TimerEvent: {}
+[4.645630] (-) TimerEvent: {}
+[4.748314] (-) TimerEvent: {}
+[4.849212] (-) TimerEvent: {}
+[4.950016] (-) TimerEvent: {}
+[5.050813] (-) TimerEvent: {}
+[5.152991] (-) TimerEvent: {}
+[5.255168] (-) TimerEvent: {}
+[5.357273] (-) TimerEvent: {}
+[5.458371] (-) TimerEvent: {}
+[5.559648] (-) TimerEvent: {}
+[5.662729] (-) TimerEvent: {}
+[5.765608] (-) TimerEvent: {}
+[5.868506] (-) TimerEvent: {}
+[5.972986] (-) TimerEvent: {}
+[6.074116] (-) TimerEvent: {}
+[6.176443] (-) TimerEvent: {}
+[6.278901] (-) TimerEvent: {}
+[6.380881] (-) TimerEvent: {}
+[6.481975] (-) TimerEvent: {}
+[6.583014] (-) TimerEvent: {}
+[6.683783] (-) TimerEvent: {}
+[6.784704] (-) TimerEvent: {}
+[6.885848] (-) TimerEvent: {}
+[6.987852] (-) TimerEvent: {}
+[7.090655] (-) TimerEvent: {}
+[7.192205] (-) TimerEvent: {}
+[7.200096] (position_fusion_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/position_fusion_node', 'build', '--build-base', '/home/drone/drone_ws/build/position_fusion_node/build', 'install', '--record', '/home/drone/drone_ws/build/position_fusion_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/position_fusion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 56636 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fba65327-5e0e-4162-94dc-a16af898ced2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0a886911c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/drone_utils:/home/drone/drone_ws/install/drone_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/position_fusion_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56636 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[7.226194] (marker_pose_estimator_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/marker_pose_estimator_node', 'build', '--build-base', '/home/drone/drone_ws/build/marker_pose_estimator_node/build', 'install', '--record', '/home/drone/drone_ws/build/marker_pose_estimator_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/marker_pose_estimator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 56636 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fba65327-5e0e-4162-94dc-a16af898ced2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0a886911c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/marker_pose_estimator_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56636 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[7.249670] (rangefinder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rangefinder', 'build', '--build-base', '/home/drone/drone_ws/build/rangefinder/build', 'install', '--record', '/home/drone/drone_ws/build/rangefinder/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/rangefinder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 56636 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fba65327-5e0e-4162-94dc-a16af898ced2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0a886911c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/rangefinder', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56636 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[7.292430] (-) TimerEvent: {}
+[7.394754] (-) TimerEvent: {}
+[7.496220] (-) TimerEvent: {}
+[7.597363] (-) TimerEvent: {}
+[7.698329] (-) TimerEvent: {}
+[7.800893] (-) TimerEvent: {}
+[7.903243] (-) TimerEvent: {}
+[8.004198] (-) TimerEvent: {}
+[8.105010] (-) TimerEvent: {}
+[8.207459] (-) TimerEvent: {}
+[8.309519] (-) TimerEvent: {}
+[8.411573] (-) TimerEvent: {}
+[8.512518] (-) TimerEvent: {}
+[8.615007] (-) TimerEvent: {}
+[8.715867] (-) TimerEvent: {}
+[8.785684] (position_fusion_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.800074] (position_fusion_node) StdoutLine: {'line': b'writing ../../build/position_fusion_node/position_fusion.egg-info/PKG-INFO\n'}
+[8.800772] (rangefinder) StdoutLine: {'line': b'running egg_info\n'}
+[8.801663] (rangefinder) StdoutLine: {'line': b'writing ../../build/rangefinder/rangefinder.egg-info/PKG-INFO\n'}
+[8.802974] (position_fusion_node) StdoutLine: {'line': b'writing dependency_links to ../../build/position_fusion_node/position_fusion.egg-info/dependency_links.txt\n'}
+[8.804039] (rangefinder) StdoutLine: {'line': b'writing dependency_links to ../../build/rangefinder/rangefinder.egg-info/dependency_links.txt\n'}
+[8.804846] (position_fusion_node) StdoutLine: {'line': b'writing entry points to ../../build/position_fusion_node/position_fusion.egg-info/entry_points.txt\n'}
+[8.805881] (position_fusion_node) StdoutLine: {'line': b'writing requirements to ../../build/position_fusion_node/position_fusion.egg-info/requires.txt\n'}
+[8.808101] (position_fusion_node) StdoutLine: {'line': b'writing top-level names to ../../build/position_fusion_node/position_fusion.egg-info/top_level.txt\n'}
+[8.811658] (rangefinder) StdoutLine: {'line': b'writing entry points to ../../build/rangefinder/rangefinder.egg-info/entry_points.txt\n'}
+[8.814039] (rangefinder) StdoutLine: {'line': b'writing requirements to ../../build/rangefinder/rangefinder.egg-info/requires.txt\n'}
+[8.816301] (-) TimerEvent: {}
+[8.817373] (rangefinder) StdoutLine: {'line': b'writing top-level names to ../../build/rangefinder/rangefinder.egg-info/top_level.txt\n'}
+[8.819903] (position_fusion_node) StdoutLine: {'line': b"reading manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'\n"}
+[8.825992] (rangefinder) StdoutLine: {'line': b"reading manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'\n"}
+[8.838968] (rangefinder) StdoutLine: {'line': b"writing manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'\n"}
+[8.842813] (position_fusion_node) StdoutLine: {'line': b"writing manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'\n"}
+[8.845765] (rangefinder) StdoutLine: {'line': b'running build\n'}
+[8.848447] (rangefinder) StdoutLine: {'line': b'running build_py\n'}
+[8.852031] (position_fusion_node) StdoutLine: {'line': b'running build\n'}
+[8.856163] (position_fusion_node) StdoutLine: {'line': b'running build_py\n'}
+[8.859338] (rangefinder) StdoutLine: {'line': b'copying rangefinder/rangefinder_node.py -> /home/drone/drone_ws/build/rangefinder/build/lib/rangefinder\n'}
+[8.862426] (position_fusion_node) StdoutLine: {'line': b'copying position_fusion/position_fusion_node.py -> /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion\n'}
+[8.865319] (position_fusion_node) StdoutLine: {'line': b'running install\n'}
+[8.868210] (position_fusion_node) StdoutLine: {'line': b'running install_lib\n'}
+[8.874696] (rangefinder) StdoutLine: {'line': b'running install\n'}
+[8.875441] (rangefinder) StdoutLine: {'line': b'running install_lib\n'}
+[8.876131] (position_fusion_node) StdoutLine: {'line': b'copying /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion/position_fusion_node.py -> /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion\n'}
+[8.876905] (rangefinder) StdoutLine: {'line': b'copying /home/drone/drone_ws/build/rangefinder/build/lib/rangefinder/rangefinder_node.py -> /home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder\n'}
+[8.879399] (position_fusion_node) StdoutLine: {'line': b'running install_data\n'}
+[8.880191] (rangefinder) StdoutLine: {'line': b'byte-compiling /home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder/rangefinder_node.py to rangefinder_node.cpython-310.pyc\n'}
+[8.880832] (position_fusion_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.885437] (rangefinder) StdoutLine: {'line': b'running install_data\n'}
+[8.888402] (rangefinder) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.889142] (position_fusion_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.890957] (marker_pose_estimator_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.892017] (rangefinder) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.892814] (rangefinder) StdoutLine: {'line': b'Copying ../../build/rangefinder/rangefinder.egg-info to /home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info\n'}
+[8.895695] (position_fusion_node) StdoutLine: {'line': b'Copying ../../build/position_fusion_node/position_fusion.egg-info to /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion-0.0.0-py3.10.egg-info\n'}
+[8.898145] (marker_pose_estimator_node) StdoutLine: {'line': b'writing ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/PKG-INFO\n'}
+[8.900794] (marker_pose_estimator_node) StdoutLine: {'line': b'writing dependency_links to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/dependency_links.txt\n'}
+[8.903847] (marker_pose_estimator_node) StdoutLine: {'line': b'writing entry points to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/entry_points.txt\n'}
+[8.905889] (position_fusion_node) StdoutLine: {'line': b'running install_scripts\n'}
+[8.907862] (marker_pose_estimator_node) StdoutLine: {'line': b'writing requirements to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/requires.txt\n'}
+[8.912270] (marker_pose_estimator_node) StdoutLine: {'line': b'writing top-level names to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/top_level.txt\n'}
+[8.915548] (rangefinder) StdoutLine: {'line': b'running install_scripts\n'}
+[8.918262] (-) TimerEvent: {}
+[8.920058] (marker_pose_estimator_node) StdoutLine: {'line': b"reading manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'\n"}
+[8.922138] (marker_pose_estimator_node) StdoutLine: {'line': b"writing manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'\n"}
+[8.925812] (marker_pose_estimator_node) StdoutLine: {'line': b'running build\n'}
+[8.928589] (marker_pose_estimator_node) StdoutLine: {'line': b'running build_py\n'}
+[8.932380] (marker_pose_estimator_node) StdoutLine: {'line': b'copying marker_pose_estimator/marker_pose_estimator_node.py -> /home/drone/drone_ws/build/marker_pose_estimator_node/build/lib/marker_pose_estimator\n'}
+[8.934590] (marker_pose_estimator_node) StdoutLine: {'line': b'running install\n'}
+[8.936550] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_lib\n'}
+[8.940516] (marker_pose_estimator_node) StdoutLine: {'line': b'copying /home/drone/drone_ws/build/marker_pose_estimator_node/build/lib/marker_pose_estimator/marker_pose_estimator_node.py -> /home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator\n'}
+[8.943003] (marker_pose_estimator_node) StdoutLine: {'line': b'byte-compiling /home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator/marker_pose_estimator_node.py to marker_pose_estimator_node.cpython-310.pyc\n'}
+[8.958680] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_data\n'}
+[8.960905] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.968804] (marker_pose_estimator_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.978113] (marker_pose_estimator_node) StdoutLine: {'line': b'Copying ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info\n'}
+[8.984727] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_scripts\n'}
+[9.004074] (rangefinder) StdoutLine: {'line': b'Installing rangefinder script to /home/drone/drone_ws/install/rangefinder/lib/rangefinder\n'}
+[9.006192] (position_fusion_node) StdoutLine: {'line': b'Installing position_fusion script to /home/drone/drone_ws/install/position_fusion_node/lib/position_fusion\n'}
+[9.008278] (rangefinder) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/rangefinder/install.log'\n"}
+[9.022381] (-) TimerEvent: {}
+[9.023890] (position_fusion_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/position_fusion_node/install.log'\n"}
+[9.122870] (-) TimerEvent: {}
+[9.186784] (marker_pose_estimator_node) StdoutLine: {'line': b'Installing marker_pose_estimator script to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/marker_pose_estimator\n'}
+[9.193907] (marker_pose_estimator_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/marker_pose_estimator_node/install.log'\n"}
+[9.223325] (-) TimerEvent: {}
+[9.274383] (position_fusion_node) CommandEnded: {'returncode': 0}
+[9.323614] (-) TimerEvent: {}
+[9.395289] (position_fusion_node) JobEnded: {'identifier': 'position_fusion_node', 'rc': 0}
+[9.403037] (rangefinder) CommandEnded: {'returncode': 0}
+[9.424420] (-) TimerEvent: {}
+[9.436576] (rangefinder) JobEnded: {'identifier': 'rangefinder', 'rc': 0}
+[9.440694] (marker_pose_estimator_node) CommandEnded: {'returncode': 0}
+[9.475449] (marker_pose_estimator_node) JobEnded: {'identifier': 'marker_pose_estimator_node', 'rc': 0}
+[9.478854] (-) EventReactorShutdown: {}

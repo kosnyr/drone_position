@@ -1,0 +1,21 @@
+[4.041s] Invoking command in '/home/drone/drone_ws/src/project_start': PYTHONPATH=/home/drone/drone_ws/build/project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_start build --build-base /home/drone/drone_ws/build/project_start/build install --record /home/drone/drone_ws/build/project_start/install.log --single-version-externally-managed install_data
+[5.339s] running egg_info
+[5.342s] writing ../../build/project_start/project_start.egg-info/PKG-INFO
+[5.343s] writing dependency_links to ../../build/project_start/project_start.egg-info/dependency_links.txt
+[5.344s] writing entry points to ../../build/project_start/project_start.egg-info/entry_points.txt
+[5.345s] writing requirements to ../../build/project_start/project_start.egg-info/requires.txt
+[5.346s] writing top-level names to ../../build/project_start/project_start.egg-info/top_level.txt
+[5.355s] reading manifest file '../../build/project_start/project_start.egg-info/SOURCES.txt'
+[5.363s] writing manifest file '../../build/project_start/project_start.egg-info/SOURCES.txt'
+[5.364s] running build
+[5.364s] running build_py
+[5.366s] running install
+[5.366s] running install_lib
+[5.373s] running install_data
+[5.374s] copying launch/start.launch.py -> /home/drone/drone_ws/install/project_start/share/project_start/launch
+[5.375s] running install_egg_info
+[5.384s] removing '/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages/project_start-0.0.0-py3.10.egg-info' (and everything under it)
+[5.389s] Copying ../../build/project_start/project_start.egg-info to /home/drone/drone_ws/install/project_start/lib/python3.10/site-packages/project_start-0.0.0-py3.10.egg-info
+[5.399s] running install_scripts
+[5.488s] writing list of installed files to '/home/drone/drone_ws/build/project_start/install.log'
+[5.619s] Invoked command in '/home/drone/drone_ws/src/project_start' returned '0': PYTHONPATH=/home/drone/drone_ws/build/project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_start build --build-base /home/drone/drone_ws/build/project_start/build install --record /home/drone/drone_ws/build/project_start/install.log --single-version-externally-managed install_data

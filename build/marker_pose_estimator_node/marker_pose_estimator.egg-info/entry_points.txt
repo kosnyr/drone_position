@@ -1,0 +1,3 @@
+[console_scripts]
+marker_pose_estimator = marker_pose_estimator.marker_pose_estimator_node:main
+

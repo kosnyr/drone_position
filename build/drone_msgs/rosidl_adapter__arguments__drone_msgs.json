@@ -1,0 +1,9 @@
+{
+  "package_name": "drone_msgs",
+  "non_idl_tuples": [
+    "/home/drone/drone_ws/src/drone_msgs:msg/ArucoDetection.msg",
+    "/home/drone/drone_ws/src/drone_msgs:msg/ArucoDetectionArray.msg",
+    "/home/drone/drone_ws/src/drone_msgs:msg/MarkerPose.msg",
+    "/home/drone/drone_ws/src/drone_msgs:msg/MarkerPoseArray.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+source;share/camera_info_checker/hook/pythonpath.ps1
+source;share/camera_info_checker/hook/pythonpath.dsv
+source;share/camera_info_checker/hook/pythonpath.sh
+source;share/camera_info_checker/hook/ament_prefix_path.ps1
+source;share/camera_info_checker/hook/ament_prefix_path.dsv
+source;share/camera_info_checker/hook/ament_prefix_path.sh

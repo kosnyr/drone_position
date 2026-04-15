@@ -67,7 +67,21 @@ class RangefinderNode(Node):
             if self.sensor.data_ready:
                 # Читаем расстояние в см и конвертируем в метры
                 distance_cm = self.sensor.distance
+                
+                # CRITICAL FIX: Проверяем что distance не None
+                if distance_cm is None:
+                    self.get_logger().warn('Sensor returned None distance', throttle_duration_sec=2.0)
+                    return
+                
                 distance_m = distance_cm / 100.0
+                
+                # Проверяем валидность диапазона
+                if distance_m < self.min_range or distance_m > self.max_range:
+                    self.get_logger().warn(
+                        f'Distance {distance_m:.2f}m out of range [{self.min_range}, {self.max_range}]',
+                        throttle_duration_sec=2.0
+                    )
+                    return
                 
                 self.sensor.clear_interrupt()
 

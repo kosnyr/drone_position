@@ -1,6 +1,6 @@
 # Конфигурация ArUco маркеров
 aruco_dict: 'DICT_4X4_250'
-marker_length: 0.20
+marker_length: 0.213
 
 # Белый список разрешенных маркеров (поле 5x5)
 allowed_marker_ids: [

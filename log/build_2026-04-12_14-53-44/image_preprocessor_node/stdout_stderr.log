@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/image_preprocessor_node/image_preprocessor.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_preprocessor_node/image_preprocessor.egg-info/dependency_links.txt
+writing entry points to ../../build/image_preprocessor_node/image_preprocessor.egg-info/entry_points.txt
+writing requirements to ../../build/image_preprocessor_node/image_preprocessor.egg-info/requires.txt
+writing top-level names to ../../build/image_preprocessor_node/image_preprocessor.egg-info/top_level.txt
+reading manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/image_preprocessor_node/image_preprocessor.egg-info to /home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_preprocessor script to /home/drone/drone_ws/install/image_preprocessor_node/lib/image_preprocessor
+writing list of installed files to '/home/drone/drone_ws/build/image_preprocessor_node/install.log'

@@ -1,0 +1,21 @@
+[4.394s] Invoking command in '/home/drone/drone_ws/src/px4': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data
+[5.935s] running egg_info
+[5.935s] writing ../../build/px4/px4.egg-info/PKG-INFO
+[5.936s] writing dependency_links to ../../build/px4/px4.egg-info/dependency_links.txt
+[5.937s] writing entry points to ../../build/px4/px4.egg-info/entry_points.txt
+[5.938s] writing requirements to ../../build/px4/px4.egg-info/requires.txt
+[5.940s] writing top-level names to ../../build/px4/px4.egg-info/top_level.txt
+[5.949s] reading manifest file '../../build/px4/px4.egg-info/SOURCES.txt'
+[5.960s] writing manifest file '../../build/px4/px4.egg-info/SOURCES.txt'
+[5.962s] running build
+[5.963s] running build_py
+[5.963s] running install
+[5.964s] running install_lib
+[5.969s] running install_data
+[5.970s] running install_egg_info
+[5.977s] removing '/home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4-0.0.0-py3.10.egg-info' (and everything under it)
+[5.980s] Copying ../../build/px4/px4.egg-info to /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4-0.0.0-py3.10.egg-info
+[5.992s] running install_scripts
+[6.077s] Installing px4 script to /home/drone/drone_ws/install/px4/lib/px4
+[6.078s] writing list of installed files to '/home/drone/drone_ws/build/px4/install.log'
+[6.226s] Invoked command in '/home/drone/drone_ws/src/px4' returned '0': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data

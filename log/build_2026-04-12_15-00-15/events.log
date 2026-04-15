@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.001681] (-) JobUnselected: {'identifier': 'altitude'}
+[0.002295] (-) JobUnselected: {'identifier': 'aruco_detector_node'}
+[0.002816] (-) JobUnselected: {'identifier': 'drone_msgs'}
+[0.003003] (-) JobUnselected: {'identifier': 'drone_utils'}
+[0.003282] (-) JobUnselected: {'identifier': 'image_preprocessor_node'}
+[0.003439] (-) JobUnselected: {'identifier': 'marker_pose_estimator_node'}
+[0.003527] (-) JobUnselected: {'identifier': 'project_start'}
+[0.003623] (-) JobUnselected: {'identifier': 'px4'}
+[0.003746] (-) JobUnselected: {'identifier': 'rangefinder'}
+[0.003841] (-) JobUnselected: {'identifier': 'uav_camera'}
+[0.003936] (global_position_node) JobQueued: {'identifier': 'global_position_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs'), ('drone_utils', '/home/drone/drone_ws/install/drone_utils')])}
+[0.004079] (position_fusion_node) JobQueued: {'identifier': 'position_fusion_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs'), ('drone_utils', '/home/drone/drone_ws/install/drone_utils')])}
+[0.004740] (global_position_node) JobStarted: {'identifier': 'global_position_node'}
+[0.042767] (global_position_node) JobEnded: {'identifier': 'global_position_node', 'rc': 1}
+[0.046695] (position_fusion_node) JobStarted: {'identifier': 'position_fusion_node'}
+[0.072434] (position_fusion_node) JobEnded: {'identifier': 'position_fusion_node', 'rc': 1}
+[0.083786] (-) EventReactorShutdown: {}

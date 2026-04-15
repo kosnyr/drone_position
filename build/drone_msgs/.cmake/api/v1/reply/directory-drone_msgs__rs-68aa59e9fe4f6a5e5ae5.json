@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drone_msgs__rs",
+		"source" : "/home/drone/drone_ws/build/drone_msgs/drone_msgs__rs"
+	}
+}

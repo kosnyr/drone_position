@@ -1,0 +1,24 @@
+[2.758s] Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[3.035s] [100%] Built target camera_publisher
+[3.089s] Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[3.140s] Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera
+[3.173s] -- Install configuration: ""
+[3.177s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/lib/uav_camera/camera_publisher
+[3.183s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch
+[3.188s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch/camera_launch.py
+[3.193s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/package_run_dependencies/uav_camera
+[3.200s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/parent_prefix_path/uav_camera
+[3.201s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.sh
+[3.202s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.dsv
+[3.202s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.sh
+[3.203s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.dsv
+[3.204s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.bash
+[3.204s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.sh
+[3.205s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.zsh
+[3.205s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.dsv
+[3.206s] -- Installing: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv
+[3.206s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/packages/uav_camera
+[3.207s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig.cmake
+[3.207s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig-version.cmake
+[3.208s] -- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.xml
+[3.208s] Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera

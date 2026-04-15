@@ -1,0 +1,38 @@
+[4.581s] Invoking command in '/home/drone/drone_ws/src/position_fusion': AMENT_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs LD_LIBRARY_PATH=/home/drone/drone_ws/install/drone_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_fusion_node build --build-base /home/drone/drone_ws/build/position_fusion_node/build install --record /home/drone/drone_ws/build/position_fusion_node/install.log --single-version-externally-managed install_data
+[5.886s] running egg_info
+[5.887s] creating ../../build/position_fusion_node/position_fusion.egg-info
+[5.894s] writing ../../build/position_fusion_node/position_fusion.egg-info/PKG-INFO
+[5.897s] writing dependency_links to ../../build/position_fusion_node/position_fusion.egg-info/dependency_links.txt
+[5.898s] writing entry points to ../../build/position_fusion_node/position_fusion.egg-info/entry_points.txt
+[5.900s] writing requirements to ../../build/position_fusion_node/position_fusion.egg-info/requires.txt
+[5.901s] writing top-level names to ../../build/position_fusion_node/position_fusion.egg-info/top_level.txt
+[5.903s] writing manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'
+[5.910s] reading manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'
+[5.921s] writing manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'
+[5.922s] running build
+[5.923s] running build_py
+[5.929s] creating /home/drone/drone_ws/build/position_fusion_node/build
+[5.930s] creating /home/drone/drone_ws/build/position_fusion_node/build/lib
+[5.934s] creating /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion
+[5.935s] copying position_fusion/position_fusion_node.py -> /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion
+[5.935s] copying position_fusion/__init__.py -> /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion
+[5.936s] copying position_fusion/aperiodic_filter.py -> /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion
+[5.939s] running install
+[5.941s] running install_lib
+[5.942s] creating /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion
+[5.942s] copying /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion/position_fusion_node.py -> /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion
+[5.943s] copying /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion/__init__.py -> /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion
+[5.946s] copying /home/drone/drone_ws/build/position_fusion_node/build/lib/position_fusion/aperiodic_filter.py -> /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion
+[5.948s] byte-compiling /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion/position_fusion_node.py to position_fusion_node.cpython-310.pyc
+[5.949s] byte-compiling /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion/__init__.py to __init__.cpython-310.pyc
+[5.950s] byte-compiling /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion/aperiodic_filter.py to aperiodic_filter.cpython-310.pyc
+[5.951s] running install_data
+[5.953s] copying resource/position_fusion -> /home/drone/drone_ws/install/position_fusion_node/share/ament_index/resource_index/packages
+[5.953s] creating /home/drone/drone_ws/install/position_fusion_node/share/position_fusion
+[5.954s] copying package.xml -> /home/drone/drone_ws/install/position_fusion_node/share/position_fusion
+[5.954s] running install_egg_info
+[5.961s] Copying ../../build/position_fusion_node/position_fusion.egg-info to /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion-0.0.0-py3.10.egg-info
+[5.966s] running install_scripts
+[6.053s] Installing position_fusion script to /home/drone/drone_ws/install/position_fusion_node/lib/position_fusion
+[6.054s] writing list of installed files to '/home/drone/drone_ws/build/position_fusion_node/install.log'
+[6.284s] Invoked command in '/home/drone/drone_ws/src/position_fusion' returned '0': AMENT_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs LD_LIBRARY_PATH=/home/drone/drone_ws/install/drone_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_fusion_node build --build-base /home/drone/drone_ws/build/position_fusion_node/build install --record /home/drone/drone_ws/build/position_fusion_node/install.log --single-version-externally-managed install_data

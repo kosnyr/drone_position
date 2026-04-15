@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.001269] (-) JobUnselected: {'identifier': 'altitude'}
+[0.001566] (-) JobUnselected: {'identifier': 'aruco_detector_node'}
+[0.001677] (-) JobUnselected: {'identifier': 'drone_msgs'}
+[0.001810] (-) JobUnselected: {'identifier': 'drone_untils'}
+[0.002085] (-) JobUnselected: {'identifier': 'global_position_node'}
+[0.002491] (-) JobUnselected: {'identifier': 'image_preprocessor_node'}
+[0.002792] (-) JobUnselected: {'identifier': 'marker_pose_estimator_node'}
+[0.002937] (-) JobUnselected: {'identifier': 'position_fusion_node'}
+[0.003020] (-) JobUnselected: {'identifier': 'project_start'}
+[0.003098] (-) JobUnselected: {'identifier': 'px4'}
+[0.003176] (-) JobUnselected: {'identifier': 'rangefinder'}
+[0.003251] (-) JobUnselected: {'identifier': 'uav_camera'}
+[0.003331] (-) EventReactorShutdown: {}

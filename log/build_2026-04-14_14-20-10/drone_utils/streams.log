@@ -1,0 +1,20 @@
+[8.213s] Invoking command in '/home/drone/drone_ws/src/drone_utils': PYTHONPATH=/home/drone/drone_ws/build/drone_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_utils build --build-base /home/drone/drone_ws/build/drone_utils/build install --record /home/drone/drone_ws/build/drone_utils/install.log --single-version-externally-managed install_data
+[10.174s] running egg_info
+[10.180s] writing ../../build/drone_utils/drone_utils.egg-info/PKG-INFO
+[10.182s] writing dependency_links to ../../build/drone_utils/drone_utils.egg-info/dependency_links.txt
+[10.186s] writing entry points to ../../build/drone_utils/drone_utils.egg-info/entry_points.txt
+[10.190s] writing requirements to ../../build/drone_utils/drone_utils.egg-info/requires.txt
+[10.192s] writing top-level names to ../../build/drone_utils/drone_utils.egg-info/top_level.txt
+[10.208s] reading manifest file '../../build/drone_utils/drone_utils.egg-info/SOURCES.txt'
+[10.229s] writing manifest file '../../build/drone_utils/drone_utils.egg-info/SOURCES.txt'
+[10.235s] running build
+[10.240s] running build_py
+[10.243s] running install
+[10.247s] running install_lib
+[10.253s] running install_data
+[10.265s] running install_egg_info
+[10.284s] removing '/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages/drone_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[10.292s] Copying ../../build/drone_utils/drone_utils.egg-info to /home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages/drone_utils-0.0.0-py3.10.egg-info
+[10.315s] running install_scripts
+[10.570s] writing list of installed files to '/home/drone/drone_ws/build/drone_utils/install.log'
+[10.837s] Invoked command in '/home/drone/drone_ws/src/drone_utils' returned '0': PYTHONPATH=/home/drone/drone_ws/build/drone_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_utils build --build-base /home/drone/drone_ws/build/drone_utils/build install --record /home/drone/drone_ws/build/drone_utils/install.log --single-version-externally-managed install_data

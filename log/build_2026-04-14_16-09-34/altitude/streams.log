@@ -1,0 +1,21 @@
+[8.459s] Invoking command in '/home/drone/drone_ws/src/altitude': PYTHONPATH=/home/drone/drone_ws/build/altitude/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/altitude build --build-base /home/drone/drone_ws/build/altitude/build install --record /home/drone/drone_ws/build/altitude/install.log --single-version-externally-managed install_data
+[10.368s] running egg_info
+[10.370s] writing ../../build/altitude/altitude.egg-info/PKG-INFO
+[10.374s] writing dependency_links to ../../build/altitude/altitude.egg-info/dependency_links.txt
+[10.378s] writing entry points to ../../build/altitude/altitude.egg-info/entry_points.txt
+[10.393s] writing requirements to ../../build/altitude/altitude.egg-info/requires.txt
+[10.394s] writing top-level names to ../../build/altitude/altitude.egg-info/top_level.txt
+[10.398s] reading manifest file '../../build/altitude/altitude.egg-info/SOURCES.txt'
+[10.399s] writing manifest file '../../build/altitude/altitude.egg-info/SOURCES.txt'
+[10.400s] running build
+[10.401s] running build_py
+[10.408s] running install
+[10.409s] running install_lib
+[10.412s] running install_data
+[10.414s] running install_egg_info
+[10.424s] removing '/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages/altitude-0.0.0-py3.10.egg-info' (and everything under it)
+[10.426s] Copying ../../build/altitude/altitude.egg-info to /home/drone/drone_ws/install/altitude/lib/python3.10/site-packages/altitude-0.0.0-py3.10.egg-info
+[10.436s] running install_scripts
+[10.577s] Installing altitude script to /home/drone/drone_ws/install/altitude/lib/altitude
+[10.583s] writing list of installed files to '/home/drone/drone_ws/build/altitude/install.log'
+[10.871s] Invoked command in '/home/drone/drone_ws/src/altitude' returned '0': PYTHONPATH=/home/drone/drone_ws/build/altitude/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/altitude build --build-base /home/drone/drone_ws/build/altitude/build install --record /home/drone/drone_ws/build/altitude/install.log --single-version-externally-managed install_data

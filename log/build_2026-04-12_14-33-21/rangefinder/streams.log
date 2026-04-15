@@ -1,0 +1,21 @@
+[7.266s] Invoking command in '/home/drone/drone_ws/src/rangefinder': PYTHONPATH=/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rangefinder build --build-base /home/drone/drone_ws/build/rangefinder/build install --record /home/drone/drone_ws/build/rangefinder/install.log --single-version-externally-managed install_data
+[8.999s] running egg_info
+[9.004s] writing ../../build/rangefinder/rangefinder.egg-info/PKG-INFO
+[9.007s] writing dependency_links to ../../build/rangefinder/rangefinder.egg-info/dependency_links.txt
+[9.011s] writing entry points to ../../build/rangefinder/rangefinder.egg-info/entry_points.txt
+[9.013s] writing requirements to ../../build/rangefinder/rangefinder.egg-info/requires.txt
+[9.015s] writing top-level names to ../../build/rangefinder/rangefinder.egg-info/top_level.txt
+[9.035s] reading manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'
+[9.054s] writing manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'
+[9.057s] running build
+[9.057s] running build_py
+[9.058s] running install
+[9.060s] running install_lib
+[9.068s] running install_data
+[9.069s] running install_egg_info
+[9.079s] removing '/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info' (and everything under it)
+[9.090s] Copying ../../build/rangefinder/rangefinder.egg-info to /home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info
+[9.096s] running install_scripts
+[9.209s] Installing rangefinder script to /home/drone/drone_ws/install/rangefinder/lib/rangefinder
+[9.211s] writing list of installed files to '/home/drone/drone_ws/build/rangefinder/install.log'
+[9.533s] Invoked command in '/home/drone/drone_ws/src/rangefinder' returned '0': PYTHONPATH=/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rangefinder build --build-base /home/drone/drone_ws/build/rangefinder/build install --record /home/drone/drone_ws/build/rangefinder/install.log --single-version-externally-managed install_data

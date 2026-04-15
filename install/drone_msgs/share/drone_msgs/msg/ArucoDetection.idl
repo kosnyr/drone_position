@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from drone_msgs/msg/ArucoDetection.msg
+// generated code does not contain a copyright notice
+
+
+module drone_msgs {
+  module msg {
+    typedef float float__8[8];
+    @verbatim (language="comment", text=
+      "Single ArUco marker detection")
+    struct ArucoDetection {
+      int32 marker_id;
+
+      @verbatim (language="comment", text=
+        "4 corners, each with (x, y) coordinates: [x1, y1, x2, y2, x3, y3, x4, y4]")
+      float__8 corners;
+    };
+  };
+};

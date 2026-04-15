@@ -1,0 +1,756 @@
+[0.000000] (-) TimerEvent: {}
+[0.002096] (altitude) JobQueued: {'identifier': 'altitude', 'dependencies': OrderedDict()}
+[0.002641] (aruco_detector_node) JobQueued: {'identifier': 'aruco_detector_node', 'dependencies': OrderedDict()}
+[0.003551] (drone_msgs) JobQueued: {'identifier': 'drone_msgs', 'dependencies': OrderedDict()}
+[0.005299] (drone_utils) JobQueued: {'identifier': 'drone_utils', 'dependencies': OrderedDict()}
+[0.006202] (image_preprocessor_node) JobQueued: {'identifier': 'image_preprocessor_node', 'dependencies': OrderedDict()}
+[0.008298] (project_start) JobQueued: {'identifier': 'project_start', 'dependencies': OrderedDict()}
+[0.008760] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.009094] (rangefinder) JobQueued: {'identifier': 'rangefinder', 'dependencies': OrderedDict()}
+[0.009377] (uav_camera) JobQueued: {'identifier': 'uav_camera', 'dependencies': OrderedDict()}
+[0.009651] (global_position_node) JobQueued: {'identifier': 'global_position_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs'), ('drone_utils', '/home/drone/drone_ws/install/drone_utils')])}
+[0.010229] (marker_pose_estimator_node) JobQueued: {'identifier': 'marker_pose_estimator_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs')])}
+[0.010446] (position_fusion_node) JobQueued: {'identifier': 'position_fusion_node', 'dependencies': OrderedDict([('drone_msgs', '/home/drone/drone_ws/install/drone_msgs'), ('drone_utils', '/home/drone/drone_ws/install/drone_utils')])}
+[0.010575] (drone_msgs) JobStarted: {'identifier': 'drone_msgs'}
+[0.063554] (drone_utils) JobStarted: {'identifier': 'drone_utils'}
+[0.100950] (-) TimerEvent: {}
+[0.102271] (altitude) JobStarted: {'identifier': 'altitude'}
+[0.132798] (aruco_detector_node) JobStarted: {'identifier': 'aruco_detector_node'}
+[0.166009] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'cmake'}
+[0.178754] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'build'}
+[0.182623] (drone_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/drone/drone_ws/build/drone_msgs', '--', '-j4', '-l4'], 'cwd': '/home/drone/drone_ws/build/drone_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'drone'), ('SSH_CLIENT', '192.168.137.1 61447 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/drone'), ('OLDPWD', '/home/drone'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3587a407b2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('GST_PLUGIN_PATH', '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/drone/drone_ws/build/drone_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 61447 192.168.137.46 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.201106] (-) TimerEvent: {}
+[0.301981] (-) TimerEvent: {}
+[0.404384] (-) TimerEvent: {}
+[0.506444] (-) TimerEvent: {}
+[0.607751] (-) TimerEvent: {}
+[0.710058] (-) TimerEvent: {}
+[0.812174] (-) TimerEvent: {}
+[0.913254] (-) TimerEvent: {}
+[1.014241] (-) TimerEvent: {}
+[1.116794] (-) TimerEvent: {}
+[1.219144] (-) TimerEvent: {}
+[1.322470] (-) TimerEvent: {}
+[1.425304] (-) TimerEvent: {}
+[1.527423] (-) TimerEvent: {}
+[1.629988] (-) TimerEvent: {}
+[1.732503] (-) TimerEvent: {}
+[1.834943] (-) TimerEvent: {}
+[1.936860] (-) TimerEvent: {}
+[2.040446] (-) TimerEvent: {}
+[2.141794] (-) TimerEvent: {}
+[2.242661] (-) TimerEvent: {}
+[2.343559] (-) TimerEvent: {}
+[2.444429] (-) TimerEvent: {}
+[2.545511] (-) TimerEvent: {}
+[2.646425] (-) TimerEvent: {}
+[2.747563] (-) TimerEvent: {}
+[2.848592] (-) TimerEvent: {}
+[2.949364] (-) TimerEvent: {}
+[3.050077] (-) TimerEvent: {}
+[3.150873] (-) TimerEvent: {}
+[3.251589] (-) TimerEvent: {}
+[3.352785] (-) TimerEvent: {}
+[3.453951] (-) TimerEvent: {}
+[3.471793] (drone_msgs) StdoutLine: {'line': b'[  1%] Built target drone_msgs__cpp\n'}
+[3.477080] (drone_msgs) StdoutLine: {'line': b'[  3%] Built target drone_msgs__rs\n'}
+[3.479615] (drone_msgs) StdoutLine: {'line': b'[ 14%] Built target drone_msgs__rosidl_generator_c\n'}
+[3.480818] (drone_msgs) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_drone_msgs\n'}
+[3.481978] (drone_msgs) StdoutLine: {'line': b'[ 25%] Built target drone_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.485843] (drone_msgs) StdoutLine: {'line': b'[ 35%] Built target drone_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.486293] (drone_msgs) StdoutLine: {'line': b'[ 46%] Built target drone_msgs__rosidl_typesupport_cpp\n'}
+[3.486747] (drone_msgs) StdoutLine: {'line': b'[ 57%] Built target drone_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.487168] (drone_msgs) StdoutLine: {'line': b'[ 67%] Built target drone_msgs__rosidl_typesupport_introspection_c\n'}
+[3.487640] (drone_msgs) StdoutLine: {'line': b'[ 78%] Built target drone_msgs__rosidl_typesupport_c\n'}
+[3.488128] (drone_msgs) StdoutLine: {'line': b'[ 78%] Built target drone_msgs\n'}
+[3.488733] (drone_msgs) StdoutLine: {'line': b'[ 80%] Built target drone_msgs__py\n'}
+[3.489475] (drone_msgs) StdoutLine: {'line': b'[ 89%] Built target drone_msgs__rosidl_generator_py\n'}
+[3.490962] (drone_msgs) StdoutLine: {'line': b'[ 92%] Built target drone_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.491686] (drone_msgs) StdoutLine: {'line': b'[ 96%] Built target drone_msgs__rosidl_typesupport_c__pyext\n'}
+[3.492543] (drone_msgs) StdoutLine: {'line': b'[100%] Built target drone_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.493140] (drone_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.494111] (drone_msgs) StdoutLine: {'line': b'writing drone_msgs.egg-info/PKG-INFO\n'}
+[3.495229] (drone_msgs) StdoutLine: {'line': b'writing dependency_links to drone_msgs.egg-info/dependency_links.txt\n'}
+[3.495818] (drone_msgs) StdoutLine: {'line': b'writing top-level names to drone_msgs.egg-info/top_level.txt\n'}
+[3.496338] (drone_msgs) StdoutLine: {'line': b"reading manifest file 'drone_msgs.egg-info/SOURCES.txt'\n"}
+[3.497396] (drone_msgs) StdoutLine: {'line': b"writing manifest file 'drone_msgs.egg-info/SOURCES.txt'\n"}
+[3.497887] (drone_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drone_msgs_egg\n'}
+[3.554132] (-) TimerEvent: {}
+[3.654972] (-) TimerEvent: {}
+[3.755695] (-) TimerEvent: {}
+[3.856400] (-) TimerEvent: {}
+[3.957182] (-) TimerEvent: {}
+[4.057970] (-) TimerEvent: {}
+[4.158763] (-) TimerEvent: {}
+[4.259475] (-) TimerEvent: {}
+[4.360198] (-) TimerEvent: {}
+[4.460914] (-) TimerEvent: {}
+[4.561650] (-) TimerEvent: {}
+[4.662514] (-) TimerEvent: {}
+[4.763732] (-) TimerEvent: {}
+[4.776241] (drone_msgs) CommandEnded: {'returncode': 0}
+[4.781123] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'install'}
+[4.817476] (drone_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/drone/drone_ws/build/drone_msgs'], 'cwd': '/home/drone/drone_ws/build/drone_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'drone'), ('SSH_CLIENT', '192.168.137.1 61447 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/drone'), ('OLDPWD', '/home/drone'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3587a407b2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('GST_PLUGIN_PATH', '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/drone/drone_ws/build/drone_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 61447 192.168.137.46 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.860655] (drone_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.867731] (-) TimerEvent: {}
+[4.875579] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/rosidl_interfaces/drone_msgs\n'}
+[4.886160] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[4.888382] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[4.891396] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection_array.h\n'}
+[4.894260] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection.h\n'}
+[4.897744] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.902835] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose.h\n'}
+[4.903600] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[4.904195] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__functions.h\n'}
+[4.905096] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__struct.h\n'}
+[4.905798] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__functions.h\n'}
+[4.906515] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.h\n'}
+[4.907091] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__struct.h\n'}
+[4.907728] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__functions.c\n'}
+[4.908229] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__functions.c\n'}
+[4.908924] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__functions.h\n'}
+[4.910881] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.h\n'}
+[4.913077] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__functions.c\n'}
+[4.921077] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__struct.h\n'}
+[4.924339] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__functions.h\n'}
+[4.927091] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.h\n'}
+[4.929926] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__functions.c\n'}
+[4.932842] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__struct.h\n'}
+[4.939792] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.h\n'}
+[4.944428] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose_array.h\n'}
+[4.948232] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/library_path.sh\n'}
+[4.951431] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/library_path.dsv\n'}
+[4.952117] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_c.so\n'}
+[4.952745] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[4.953200] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[4.954078] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[4.959424] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.960223] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.960756] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[4.961207] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[4.961640] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.962015] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.962424] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[4.962889] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[4.963319] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[4.963855] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.c\n'}
+[4.969325] (-) TimerEvent: {}
+[4.975024] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h\n'}
+[4.975719] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h\n'}
+[4.979555] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.c\n'}
+[4.982009] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.c\n'}
+[4.982678] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[4.983246] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.c\n'}
+[4.986455] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_introspection_c.h\n'}
+[4.987106] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.987716] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.988305] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_c.so\n'}
+[4.988976] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[4.989510] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[4.989960] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.990601] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose.hpp\n'}
+[4.991121] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[4.991584] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__builder.hpp\n'}
+[4.992162] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__builder.hpp\n'}
+[4.992763] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__traits.hpp\n'}
+[4.993565] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__traits.hpp\n'}
+[4.994373] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.hpp\n'}
+[4.995075] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__struct.hpp\n'}
+[4.995681] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.hpp\n'}
+[4.996337] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__struct.hpp\n'}
+[5.009063] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.hpp\n'}
+[5.009794] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__struct.hpp\n'}
+[5.010573] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__builder.hpp\n'}
+[5.011181] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__traits.hpp\n'}
+[5.011686] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__traits.hpp\n'}
+[5.012301] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__builder.hpp\n'}
+[5.013007] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__struct.hpp\n'}
+[5.013740] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.hpp\n'}
+[5.014421] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection.hpp\n'}
+[5.014975] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/marker_pose_array.hpp\n'}
+[5.015444] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/aruco_detection_array.hpp\n'}
+[5.015941] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[5.016419] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[5.017006] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.017621] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[5.018265] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.018913] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/dds_fastrtps\n'}
+[5.019661] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.020436] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.031253] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.032019] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.032766] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[5.033496] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[5.034160] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail\n'}
+[5.034824] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.035422] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.035933] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__type_support.cpp\n'}
+[5.036442] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.037405] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection__type_support.cpp\n'}
+[5.037952] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/aruco_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.038489] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose__type_support.cpp\n'}
+[5.039146] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/detail/marker_pose_array__type_support.cpp\n'}
+[5.039944] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.040673] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_cpp.so\n'}
+[5.041507] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.sh\n'}
+[5.042345] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.dsv\n'}
+[5.043553] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info\n'}
+[5.044231] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.044758] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.045362] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.046388] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.047278] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs\n'}
+[5.048186] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.048831] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg\n'}
+[5.049988] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection.py\n'}
+[5.050698] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose.py\n'}
+[5.051447] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_s.c\n'}
+[5.052991] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_array_s.c\n'}
+[5.053909] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/__init__.py\n'}
+[5.054595] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_s.c\n'}
+[5.055783] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_array_s.c\n'}
+[5.056394] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_marker_pose_array.py\n'}
+[5.056965] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg/_aruco_detection_array.py\n'}
+[5.057693] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.058380] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/__init__.py\n'}
+[5.058966] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.059506] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.060047] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.060621] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.061454] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/libdrone_msgs__rosidl_generator_py.so\n'}
+[5.069560] (-) TimerEvent: {}
+[5.171866] (-) TimerEvent: {}
+[5.274452] (-) TimerEvent: {}
+[5.363722] (drone_msgs) StdoutLine: {'line': b"Listing '/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs'...\n"}
+[5.365822] (drone_msgs) StdoutLine: {'line': b"Listing '/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/msg'...\n"}
+[5.374915] (-) TimerEvent: {}
+[5.411261] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.416918] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.422289] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.427420] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_py.so\n'}
+[5.429244] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/rust_packages/drone_msgs\n'}
+[5.430367] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust\n'}
+[5.431013] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/Cargo.toml\n'}
+[5.431560] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src\n'}
+[5.432604] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg\n'}
+[5.433400] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg/rmw.rs\n'}
+[5.434048] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/msg.rs\n'}
+[5.435270] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/src/lib.rs\n'}
+[5.436540] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/rust/build.rs\n'}
+[5.437543] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetection.idl\n'}
+[5.438473] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetectionArray.idl\n'}
+[5.439598] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPose.idl\n'}
+[5.441242] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPoseArray.idl\n'}
+[5.441890] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetection.msg\n'}
+[5.442461] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/ArucoDetectionArray.msg\n'}
+[5.443006] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPose.msg\n'}
+[5.443572] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/msg/MarkerPoseArray.msg\n'}
+[5.444122] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/package_run_dependencies/drone_msgs\n'}
+[5.447198] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/parent_prefix_path/drone_msgs\n'}
+[5.448052] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.sh\n'}
+[5.448882] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.dsv\n'}
+[5.449578] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/path.sh\n'}
+[5.450135] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/environment/path.dsv\n'}
+[5.450654] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.bash\n'}
+[5.451156] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.sh\n'}
+[5.451658] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.zsh\n'}
+[5.453910] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/local_setup.dsv\n'}
+[5.461440] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.dsv\n'}
+[5.465512] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/ament_index/resource_index/packages/drone_msgs\n'}
+[5.466218] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport.cmake\n'}
+[5.466739] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.467205] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.467854] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.468400] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.469139] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.470365] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.471131] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.475285] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.475977] (-) TimerEvent: {}
+[5.480005] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.480899] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.484912] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.485731] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.489190] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.491454] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.496026] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.500857] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.503983] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.508793] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.512340] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.516415] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.521354] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.525709] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.528016] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.532768] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig.cmake\n'}
+[5.534992] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig-version.cmake\n'}
+[5.537906] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.xml\n'}
+[5.548775] (drone_msgs) CommandEnded: {'returncode': 0}
+[5.576178] (-) TimerEvent: {}
+[5.677484] (-) TimerEvent: {}
+[5.742965] (drone_msgs) JobEnded: {'identifier': 'drone_msgs', 'rc': 0}
+[5.747186] (image_preprocessor_node) JobStarted: {'identifier': 'image_preprocessor_node'}
+[5.777913] (-) TimerEvent: {}
+[5.879149] (-) TimerEvent: {}
+[5.980677] (-) TimerEvent: {}
+[6.082312] (-) TimerEvent: {}
+[6.183944] (-) TimerEvent: {}
+[6.285501] (-) TimerEvent: {}
+[6.386759] (-) TimerEvent: {}
+[6.488106] (-) TimerEvent: {}
+[6.589412] (-) TimerEvent: {}
+[6.690857] (-) TimerEvent: {}
+[6.793716] (-) TimerEvent: {}
+[6.896679] (-) TimerEvent: {}
+[6.999397] (-) TimerEvent: {}
+[7.102073] (-) TimerEvent: {}
+[7.205048] (-) TimerEvent: {}
+[7.307212] (-) TimerEvent: {}
+[7.409608] (-) TimerEvent: {}
+[7.510648] (-) TimerEvent: {}
+[7.611498] (-) TimerEvent: {}
+[7.713495] (-) TimerEvent: {}
+[7.814928] (-) TimerEvent: {}
+[7.916342] (-) TimerEvent: {}
+[8.018664] (-) TimerEvent: {}
+[8.122334] (-) TimerEvent: {}
+[8.224839] (-) TimerEvent: {}
+[8.316639] (drone_utils) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_utils', 'build', '--build-base', '/home/drone/drone_ws/build/drone_utils/build', 'install', '--record', '/home/drone/drone_ws/build/drone_utils/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/drone_utils', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/drone_utils', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/drone_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.329747] (-) TimerEvent: {}
+[8.358450] (aruco_detector_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_detector_node', 'build', '--build-base', '/home/drone/drone_ws/build/aruco_detector_node/build', 'install', '--record', '/home/drone/drone_ws/build/aruco_detector_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/aruco_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/aruco_detector_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/aruco_detector_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.449287] (altitude) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/altitude', 'build', '--build-base', '/home/drone/drone_ws/build/altitude/build', 'install', '--record', '/home/drone/drone_ws/build/altitude/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/altitude', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/altitude', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/altitude/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.530506] (-) TimerEvent: {}
+[8.631389] (-) TimerEvent: {}
+[8.732822] (-) TimerEvent: {}
+[8.834499] (-) TimerEvent: {}
+[8.935923] (-) TimerEvent: {}
+[9.037234] (-) TimerEvent: {}
+[9.138641] (-) TimerEvent: {}
+[9.239680] (-) TimerEvent: {}
+[9.340629] (-) TimerEvent: {}
+[9.441702] (-) TimerEvent: {}
+[9.542634] (-) TimerEvent: {}
+[9.643598] (-) TimerEvent: {}
+[9.744565] (-) TimerEvent: {}
+[9.845487] (-) TimerEvent: {}
+[9.946913] (-) TimerEvent: {}
+[10.048384] (-) TimerEvent: {}
+[10.149830] (-) TimerEvent: {}
+[10.221563] (aruco_detector_node) StdoutLine: {'line': b'running egg_info\n'}
+[10.226002] (aruco_detector_node) StdoutLine: {'line': b'writing ../../build/aruco_detector_node/aruco_detector.egg-info/PKG-INFO\n'}
+[10.229194] (aruco_detector_node) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_detector_node/aruco_detector.egg-info/dependency_links.txt\n'}
+[10.232408] (aruco_detector_node) StdoutLine: {'line': b'writing entry points to ../../build/aruco_detector_node/aruco_detector.egg-info/entry_points.txt\n'}
+[10.235043] (aruco_detector_node) StdoutLine: {'line': b'writing requirements to ../../build/aruco_detector_node/aruco_detector.egg-info/requires.txt\n'}
+[10.237265] (aruco_detector_node) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_detector_node/aruco_detector.egg-info/top_level.txt\n'}
+[10.242173] (aruco_detector_node) StdoutLine: {'line': b"reading manifest file '../../build/aruco_detector_node/aruco_detector.egg-info/SOURCES.txt'\n"}
+[10.250148] (-) TimerEvent: {}
+[10.256090] (aruco_detector_node) StdoutLine: {'line': b"writing manifest file '../../build/aruco_detector_node/aruco_detector.egg-info/SOURCES.txt'\n"}
+[10.258747] (aruco_detector_node) StdoutLine: {'line': b'running build\n'}
+[10.261123] (aruco_detector_node) StdoutLine: {'line': b'running build_py\n'}
+[10.263311] (aruco_detector_node) StdoutLine: {'line': b'running install\n'}
+[10.265252] (aruco_detector_node) StdoutLine: {'line': b'running install_lib\n'}
+[10.275189] (aruco_detector_node) StdoutLine: {'line': b'running install_data\n'}
+[10.276126] (aruco_detector_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.282134] (aruco_detector_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.289468] (aruco_detector_node) StdoutLine: {'line': b'Copying ../../build/aruco_detector_node/aruco_detector.egg-info to /home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages/aruco_detector-0.0.0-py3.10.egg-info\n'}
+[10.293483] (altitude) StdoutLine: {'line': b'running egg_info\n'}
+[10.296906] (altitude) StdoutLine: {'line': b'writing ../../build/altitude/altitude.egg-info/PKG-INFO\n'}
+[10.298233] (aruco_detector_node) StdoutLine: {'line': b'running install_scripts\n'}
+[10.298900] (altitude) StdoutLine: {'line': b'writing dependency_links to ../../build/altitude/altitude.egg-info/dependency_links.txt\n'}
+[10.299778] (altitude) StdoutLine: {'line': b'writing entry points to ../../build/altitude/altitude.egg-info/entry_points.txt\n'}
+[10.300766] (altitude) StdoutLine: {'line': b'writing requirements to ../../build/altitude/altitude.egg-info/requires.txt\n'}
+[10.301803] (altitude) StdoutLine: {'line': b'writing top-level names to ../../build/altitude/altitude.egg-info/top_level.txt\n'}
+[10.312789] (altitude) StdoutLine: {'line': b"reading manifest file '../../build/altitude/altitude.egg-info/SOURCES.txt'\n"}
+[10.327362] (altitude) StdoutLine: {'line': b"writing manifest file '../../build/altitude/altitude.egg-info/SOURCES.txt'\n"}
+[10.328423] (altitude) StdoutLine: {'line': b'running build\n'}
+[10.329204] (altitude) StdoutLine: {'line': b'running build_py\n'}
+[10.330188] (altitude) StdoutLine: {'line': b'running install\n'}
+[10.331836] (altitude) StdoutLine: {'line': b'running install_lib\n'}
+[10.339221] (altitude) StdoutLine: {'line': b'running install_data\n'}
+[10.340256] (altitude) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.353672] (-) TimerEvent: {}
+[10.354674] (altitude) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages/altitude-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.357820] (altitude) StdoutLine: {'line': b'Copying ../../build/altitude/altitude.egg-info to /home/drone/drone_ws/install/altitude/lib/python3.10/site-packages/altitude-0.0.0-py3.10.egg-info\n'}
+[10.375592] (altitude) StdoutLine: {'line': b'running install_scripts\n'}
+[10.381076] (drone_utils) StdoutLine: {'line': b'running egg_info\n'}
+[10.385712] (drone_utils) StdoutLine: {'line': b'writing ../../build/drone_utils/drone_utils.egg-info/PKG-INFO\n'}
+[10.387333] (drone_utils) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_utils/drone_utils.egg-info/dependency_links.txt\n'}
+[10.388417] (drone_utils) StdoutLine: {'line': b'writing entry points to ../../build/drone_utils/drone_utils.egg-info/entry_points.txt\n'}
+[10.390561] (drone_utils) StdoutLine: {'line': b'writing requirements to ../../build/drone_utils/drone_utils.egg-info/requires.txt\n'}
+[10.391411] (drone_utils) StdoutLine: {'line': b'writing top-level names to ../../build/drone_utils/drone_utils.egg-info/top_level.txt\n'}
+[10.405110] (drone_utils) StdoutLine: {'line': b"reading manifest file '../../build/drone_utils/drone_utils.egg-info/SOURCES.txt'\n"}
+[10.409550] (aruco_detector_node) StdoutLine: {'line': b'Installing aruco_detector script to /home/drone/drone_ws/install/aruco_detector_node/lib/aruco_detector\n'}
+[10.413113] (aruco_detector_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/aruco_detector_node/install.log'\n"}
+[10.423318] (drone_utils) StdoutLine: {'line': b"writing manifest file '../../build/drone_utils/drone_utils.egg-info/SOURCES.txt'\n"}
+[10.430368] (drone_utils) StdoutLine: {'line': b'running build\n'}
+[10.432343] (drone_utils) StdoutLine: {'line': b'running build_py\n'}
+[10.434379] (drone_utils) StdoutLine: {'line': b'running install\n'}
+[10.435929] (drone_utils) StdoutLine: {'line': b'running install_lib\n'}
+[10.443478] (drone_utils) StdoutLine: {'line': b'running install_data\n'}
+[10.445555] (drone_utils) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.454218] (-) TimerEvent: {}
+[10.460783] (drone_utils) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages/drone_utils-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.471014] (drone_utils) StdoutLine: {'line': b'Copying ../../build/drone_utils/drone_utils.egg-info to /home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages/drone_utils-0.0.0-py3.10.egg-info\n'}
+[10.507940] (drone_utils) StdoutLine: {'line': b'running install_scripts\n'}
+[10.554547] (-) TimerEvent: {}
+[10.573415] (altitude) StdoutLine: {'line': b'Installing altitude script to /home/drone/drone_ws/install/altitude/lib/altitude\n'}
+[10.576260] (altitude) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/altitude/install.log'\n"}
+[10.634073] (aruco_detector_node) CommandEnded: {'returncode': 0}
+[10.655181] (-) TimerEvent: {}
+[10.687326] (drone_utils) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/drone_utils/install.log'\n"}
+[10.755928] (-) TimerEvent: {}
+[10.773653] (aruco_detector_node) JobEnded: {'identifier': 'aruco_detector_node', 'rc': 0}
+[10.785091] (project_start) JobStarted: {'identifier': 'project_start'}
+[10.856604] (-) TimerEvent: {}
+[10.959705] (-) TimerEvent: {}
+[11.061649] (-) TimerEvent: {}
+[11.162382] (-) TimerEvent: {}
+[11.263177] (-) TimerEvent: {}
+[11.363924] (-) TimerEvent: {}
+[11.464670] (-) TimerEvent: {}
+[11.565383] (-) TimerEvent: {}
+[11.666160] (-) TimerEvent: {}
+[11.766851] (-) TimerEvent: {}
+[11.867560] (-) TimerEvent: {}
+[11.968357] (-) TimerEvent: {}
+[12.069182] (-) TimerEvent: {}
+[12.169970] (-) TimerEvent: {}
+[12.246070] (image_preprocessor_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_preprocessor_node', 'build', '--build-base', '/home/drone/drone_ws/build/image_preprocessor_node/build', 'install', '--record', '/home/drone/drone_ws/build/image_preprocessor_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/image_preprocessor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/image_preprocessor_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/image_preprocessor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[12.259707] (altitude) CommandEnded: {'returncode': 0}
+[12.270966] (-) TimerEvent: {}
+[12.297063] (altitude) JobEnded: {'identifier': 'altitude', 'rc': 0}
+[12.300642] (drone_utils) CommandEnded: {'returncode': 0}
+[12.337951] (drone_utils) JobEnded: {'identifier': 'drone_utils', 'rc': 0}
+[12.346120] (px4) JobStarted: {'identifier': 'px4'}
+[12.368986] (rangefinder) JobStarted: {'identifier': 'rangefinder'}
+[12.371277] (-) TimerEvent: {}
+[12.472164] (-) TimerEvent: {}
+[12.573335] (-) TimerEvent: {}
+[12.674506] (-) TimerEvent: {}
+[12.776776] (-) TimerEvent: {}
+[12.877786] (-) TimerEvent: {}
+[12.980131] (-) TimerEvent: {}
+[13.082289] (-) TimerEvent: {}
+[13.184608] (-) TimerEvent: {}
+[13.287039] (-) TimerEvent: {}
+[13.388668] (-) TimerEvent: {}
+[13.489496] (-) TimerEvent: {}
+[13.590330] (-) TimerEvent: {}
+[13.691474] (-) TimerEvent: {}
+[13.792646] (-) TimerEvent: {}
+[13.874509] (image_preprocessor_node) StdoutLine: {'line': b'running egg_info\n'}
+[13.879195] (image_preprocessor_node) StdoutLine: {'line': b'writing ../../build/image_preprocessor_node/image_preprocessor.egg-info/PKG-INFO\n'}
+[13.881453] (image_preprocessor_node) StdoutLine: {'line': b'writing dependency_links to ../../build/image_preprocessor_node/image_preprocessor.egg-info/dependency_links.txt\n'}
+[13.883276] (image_preprocessor_node) StdoutLine: {'line': b'writing entry points to ../../build/image_preprocessor_node/image_preprocessor.egg-info/entry_points.txt\n'}
+[13.885409] (image_preprocessor_node) StdoutLine: {'line': b'writing requirements to ../../build/image_preprocessor_node/image_preprocessor.egg-info/requires.txt\n'}
+[13.886376] (image_preprocessor_node) StdoutLine: {'line': b'writing top-level names to ../../build/image_preprocessor_node/image_preprocessor.egg-info/top_level.txt\n'}
+[13.892825] (-) TimerEvent: {}
+[13.897347] (image_preprocessor_node) StdoutLine: {'line': b"reading manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'\n"}
+[13.909876] (image_preprocessor_node) StdoutLine: {'line': b"writing manifest file '../../build/image_preprocessor_node/image_preprocessor.egg-info/SOURCES.txt'\n"}
+[13.911370] (image_preprocessor_node) StdoutLine: {'line': b'running build\n'}
+[13.912388] (image_preprocessor_node) StdoutLine: {'line': b'running build_py\n'}
+[13.915166] (image_preprocessor_node) StdoutLine: {'line': b'running install\n'}
+[13.917286] (image_preprocessor_node) StdoutLine: {'line': b'running install_lib\n'}
+[13.924661] (image_preprocessor_node) StdoutLine: {'line': b'running install_data\n'}
+[13.926294] (image_preprocessor_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.936173] (image_preprocessor_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.939592] (image_preprocessor_node) StdoutLine: {'line': b'Copying ../../build/image_preprocessor_node/image_preprocessor.egg-info to /home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages/image_preprocessor-0.0.0-py3.10.egg-info\n'}
+[13.955516] (image_preprocessor_node) StdoutLine: {'line': b'running install_scripts\n'}
+[13.993112] (-) TimerEvent: {}
+[14.092801] (image_preprocessor_node) StdoutLine: {'line': b'Installing image_preprocessor script to /home/drone/drone_ws/install/image_preprocessor_node/lib/image_preprocessor\n'}
+[14.093568] (-) TimerEvent: {}
+[14.095981] (image_preprocessor_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/image_preprocessor_node/install.log'\n"}
+[14.194762] (-) TimerEvent: {}
+[14.299852] (-) TimerEvent: {}
+[14.400784] (-) TimerEvent: {}
+[14.501654] (-) TimerEvent: {}
+[14.602621] (-) TimerEvent: {}
+[14.704534] (-) TimerEvent: {}
+[14.805932] (-) TimerEvent: {}
+[14.906641] (-) TimerEvent: {}
+[15.007380] (-) TimerEvent: {}
+[15.108180] (-) TimerEvent: {}
+[15.210519] (-) TimerEvent: {}
+[15.311257] (-) TimerEvent: {}
+[15.412035] (-) TimerEvent: {}
+[15.512924] (-) TimerEvent: {}
+[15.614120] (-) TimerEvent: {}
+[15.632190] (project_start) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/project_start', 'build', '--build-base', '/home/drone/drone_ws/build/project_start/build', 'install', '--record', '/home/drone/drone_ws/build/project_start/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/project_start', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/project_start', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[15.655014] (image_preprocessor_node) CommandEnded: {'returncode': 0}
+[15.710085] (image_preprocessor_node) JobEnded: {'identifier': 'image_preprocessor_node', 'rc': 0}
+[15.717111] (-) TimerEvent: {}
+[15.721885] (uav_camera) JobStarted: {'identifier': 'uav_camera'}
+[15.763627] (uav_camera) JobProgress: {'identifier': 'uav_camera', 'progress': 'cmake'}
+[15.773633] (uav_camera) JobProgress: {'identifier': 'uav_camera', 'progress': 'build'}
+[15.775848] (uav_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/drone/drone_ws/build/uav_camera', '--', '-j4', '-l4'], 'cwd': '/home/drone/drone_ws/build/uav_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'drone'), ('SSH_CLIENT', '192.168.137.1 61447 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/drone'), ('OLDPWD', '/home/drone'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3587a407b2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('GST_PLUGIN_PATH', '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/drone/drone_ws/build/uav_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 61447 192.168.137.46 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.817327] (-) TimerEvent: {}
+[15.919061] (-) TimerEvent: {}
+[16.022204] (-) TimerEvent: {}
+[16.125658] (-) TimerEvent: {}
+[16.228709] (-) TimerEvent: {}
+[16.331134] (-) TimerEvent: {}
+[16.335678] (uav_camera) StdoutLine: {'line': b'[100%] Built target camera_publisher\n'}
+[16.410718] (uav_camera) CommandEnded: {'returncode': 0}
+[16.421835] (uav_camera) JobProgress: {'identifier': 'uav_camera', 'progress': 'install'}
+[16.422399] (uav_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/drone/drone_ws/build/uav_camera'], 'cwd': '/home/drone/drone_ws/build/uav_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'drone'), ('SSH_CLIENT', '192.168.137.1 61447 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/drone'), ('OLDPWD', '/home/drone'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3587a407b2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('GST_PLUGIN_PATH', '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/drone/drone_ws/build/uav_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 61447 192.168.137.46 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.431409] (-) TimerEvent: {}
+[16.469579] (uav_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.476658] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/lib/uav_camera/camera_publisher\n'}
+[16.482942] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch\n'}
+[16.486274] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/launch/camera_launch.py\n'}
+[16.489518] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/package_run_dependencies/uav_camera\n'}
+[16.492909] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/parent_prefix_path/uav_camera\n'}
+[16.496229] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.sh\n'}
+[16.499996] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/ament_prefix_path.dsv\n'}
+[16.503544] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.sh\n'}
+[16.506867] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/environment/path.dsv\n'}
+[16.510297] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.bash\n'}
+[16.513420] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.sh\n'}
+[16.518186] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.zsh\n'}
+[16.523407] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/local_setup.dsv\n'}
+[16.526940] (uav_camera) StdoutLine: {'line': b'-- Installing: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv\n'}
+[16.531623] (-) TimerEvent: {}
+[16.536879] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/ament_index/resource_index/packages/uav_camera\n'}
+[16.543915] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig.cmake\n'}
+[16.547254] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/cmake/uav_cameraConfig-version.cmake\n'}
+[16.550783] (uav_camera) StdoutLine: {'line': b'-- Up-to-date: /home/drone/drone_ws/install/uav_camera/share/uav_camera/package.xml\n'}
+[16.572687] (uav_camera) CommandEnded: {'returncode': 0}
+[16.633173] (-) TimerEvent: {}
+[16.654013] (uav_camera) JobEnded: {'identifier': 'uav_camera', 'rc': 0}
+[16.657809] (global_position_node) JobStarted: {'identifier': 'global_position_node'}
+[16.736361] (-) TimerEvent: {}
+[16.837446] (-) TimerEvent: {}
+[16.938653] (-) TimerEvent: {}
+[17.041061] (-) TimerEvent: {}
+[17.143211] (-) TimerEvent: {}
+[17.244255] (-) TimerEvent: {}
+[17.345500] (-) TimerEvent: {}
+[17.446417] (-) TimerEvent: {}
+[17.502883] (project_start) StdoutLine: {'line': b'running egg_info\n'}
+[17.506636] (project_start) StdoutLine: {'line': b'writing ../../build/project_start/project_start.egg-info/PKG-INFO\n'}
+[17.508107] (project_start) StdoutLine: {'line': b'writing dependency_links to ../../build/project_start/project_start.egg-info/dependency_links.txt\n'}
+[17.509272] (project_start) StdoutLine: {'line': b'writing entry points to ../../build/project_start/project_start.egg-info/entry_points.txt\n'}
+[17.510293] (project_start) StdoutLine: {'line': b'writing requirements to ../../build/project_start/project_start.egg-info/requires.txt\n'}
+[17.511182] (project_start) StdoutLine: {'line': b'writing top-level names to ../../build/project_start/project_start.egg-info/top_level.txt\n'}
+[17.522363] (project_start) StdoutLine: {'line': b"reading manifest file '../../build/project_start/project_start.egg-info/SOURCES.txt'\n"}
+[17.537700] (project_start) StdoutLine: {'line': b"writing manifest file '../../build/project_start/project_start.egg-info/SOURCES.txt'\n"}
+[17.538555] (project_start) StdoutLine: {'line': b'running build\n'}
+[17.539201] (project_start) StdoutLine: {'line': b'running build_py\n'}
+[17.539957] (project_start) StdoutLine: {'line': b'running install\n'}
+[17.542060] (project_start) StdoutLine: {'line': b'running install_lib\n'}
+[17.546662] (-) TimerEvent: {}
+[17.549893] (project_start) StdoutLine: {'line': b'running install_data\n'}
+[17.551173] (project_start) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.561799] (project_start) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages/project_start-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[17.567556] (project_start) StdoutLine: {'line': b'Copying ../../build/project_start/project_start.egg-info to /home/drone/drone_ws/install/project_start/lib/python3.10/site-packages/project_start-0.0.0-py3.10.egg-info\n'}
+[17.586561] (project_start) StdoutLine: {'line': b'running install_scripts\n'}
+[17.647065] (-) TimerEvent: {}
+[17.702046] (project_start) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/project_start/install.log'\n"}
+[17.748718] (-) TimerEvent: {}
+[17.850580] (-) TimerEvent: {}
+[17.952644] (-) TimerEvent: {}
+[18.053744] (-) TimerEvent: {}
+[18.155273] (-) TimerEvent: {}
+[18.256890] (-) TimerEvent: {}
+[18.360091] (-) TimerEvent: {}
+[18.464388] (-) TimerEvent: {}
+[18.565472] (-) TimerEvent: {}
+[18.666244] (-) TimerEvent: {}
+[18.767085] (-) TimerEvent: {}
+[18.857534] (rangefinder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rangefinder', 'build', '--build-base', '/home/drone/drone_ws/build/rangefinder/build', 'install', '--record', '/home/drone/drone_ws/build/rangefinder/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/rangefinder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/rangefinder', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[18.872433] (px4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/px4', 'build', '--build-base', '/home/drone/drone_ws/build/px4/build', 'install', '--record', '/home/drone/drone_ws/build/px4/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/px4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/px4', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[18.879405] (-) TimerEvent: {}
+[18.885460] (project_start) CommandEnded: {'returncode': 0}
+[18.948211] (project_start) JobEnded: {'identifier': 'project_start', 'rc': 0}
+[18.954679] (marker_pose_estimator_node) JobStarted: {'identifier': 'marker_pose_estimator_node'}
+[18.982327] (-) TimerEvent: {}
+[19.083102] (-) TimerEvent: {}
+[19.198009] (-) TimerEvent: {}
+[19.298954] (-) TimerEvent: {}
+[19.399867] (-) TimerEvent: {}
+[19.500990] (-) TimerEvent: {}
+[19.602066] (-) TimerEvent: {}
+[19.703132] (-) TimerEvent: {}
+[19.804095] (-) TimerEvent: {}
+[19.906244] (-) TimerEvent: {}
+[20.008901] (-) TimerEvent: {}
+[20.110675] (-) TimerEvent: {}
+[20.213054] (-) TimerEvent: {}
+[20.315224] (-) TimerEvent: {}
+[20.417540] (-) TimerEvent: {}
+[20.519920] (-) TimerEvent: {}
+[20.622243] (-) TimerEvent: {}
+[20.724955] (-) TimerEvent: {}
+[20.738235] (px4) StdoutLine: {'line': b'running egg_info\n'}
+[20.742700] (px4) StdoutLine: {'line': b'writing ../../build/px4/px4.egg-info/PKG-INFO\n'}
+[20.745735] (px4) StdoutLine: {'line': b'writing dependency_links to ../../build/px4/px4.egg-info/dependency_links.txt\n'}
+[20.748890] (px4) StdoutLine: {'line': b'writing entry points to ../../build/px4/px4.egg-info/entry_points.txt\n'}
+[20.751813] (px4) StdoutLine: {'line': b'writing requirements to ../../build/px4/px4.egg-info/requires.txt\n'}
+[20.754717] (px4) StdoutLine: {'line': b'writing top-level names to ../../build/px4/px4.egg-info/top_level.txt\n'}
+[20.764334] (px4) StdoutLine: {'line': b"reading manifest file '../../build/px4/px4.egg-info/SOURCES.txt'\n"}
+[20.776156] (px4) StdoutLine: {'line': b"writing manifest file '../../build/px4/px4.egg-info/SOURCES.txt'\n"}
+[20.778474] (px4) StdoutLine: {'line': b'running build\n'}
+[20.780705] (px4) StdoutLine: {'line': b'running build_py\n'}
+[20.782884] (px4) StdoutLine: {'line': b'running install\n'}
+[20.785154] (px4) StdoutLine: {'line': b'running install_lib\n'}
+[20.794819] (px4) StdoutLine: {'line': b'running install_data\n'}
+[20.798834] (px4) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.812331] (px4) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.825802] (-) TimerEvent: {}
+[20.827667] (px4) StdoutLine: {'line': b'Copying ../../build/px4/px4.egg-info to /home/drone/drone_ws/install/px4/lib/python3.10/site-packages/px4-0.0.0-py3.10.egg-info\n'}
+[20.833966] (rangefinder) StdoutLine: {'line': b'running egg_info\n'}
+[20.839705] (rangefinder) StdoutLine: {'line': b'writing ../../build/rangefinder/rangefinder.egg-info/PKG-INFO\n'}
+[20.844405] (rangefinder) StdoutLine: {'line': b'writing dependency_links to ../../build/rangefinder/rangefinder.egg-info/dependency_links.txt\n'}
+[20.850544] (rangefinder) StdoutLine: {'line': b'writing entry points to ../../build/rangefinder/rangefinder.egg-info/entry_points.txt\n'}
+[20.855701] (rangefinder) StdoutLine: {'line': b'writing requirements to ../../build/rangefinder/rangefinder.egg-info/requires.txt\n'}
+[20.857945] (rangefinder) StdoutLine: {'line': b'writing top-level names to ../../build/rangefinder/rangefinder.egg-info/top_level.txt\n'}
+[20.876249] (rangefinder) StdoutLine: {'line': b"reading manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'\n"}
+[20.886182] (px4) StdoutLine: {'line': b'running install_scripts\n'}
+[20.899519] (rangefinder) StdoutLine: {'line': b"writing manifest file '../../build/rangefinder/rangefinder.egg-info/SOURCES.txt'\n"}
+[20.901908] (rangefinder) StdoutLine: {'line': b'running build\n'}
+[20.904014] (rangefinder) StdoutLine: {'line': b'running build_py\n'}
+[20.908069] (rangefinder) StdoutLine: {'line': b'running install\n'}
+[20.912602] (rangefinder) StdoutLine: {'line': b'running install_lib\n'}
+[20.924063] (rangefinder) StdoutLine: {'line': b'running install_data\n'}
+[20.926078] (-) TimerEvent: {}
+[20.928352] (rangefinder) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.945597] (rangefinder) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.952371] (rangefinder) StdoutLine: {'line': b'Copying ../../build/rangefinder/rangefinder.egg-info to /home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages/rangefinder-0.0.0-py3.10.egg-info\n'}
+[20.982939] (rangefinder) StdoutLine: {'line': b'running install_scripts\n'}
+[21.026318] (-) TimerEvent: {}
+[21.047774] (px4) StdoutLine: {'line': b'Installing px4 script to /home/drone/drone_ws/install/px4/lib/px4\n'}
+[21.051356] (px4) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/px4/install.log'\n"}
+[21.126577] (-) TimerEvent: {}
+[21.142014] (rangefinder) StdoutLine: {'line': b'Installing rangefinder script to /home/drone/drone_ws/install/rangefinder/lib/rangefinder\n'}
+[21.148392] (rangefinder) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/rangefinder/install.log'\n"}
+[21.227083] (-) TimerEvent: {}
+[21.325499] (px4) CommandEnded: {'returncode': 0}
+[21.342710] (-) TimerEvent: {}
+[21.398809] (px4) JobEnded: {'identifier': 'px4', 'rc': 0}
+[21.402628] (position_fusion_node) JobStarted: {'identifier': 'position_fusion_node'}
+[21.439307] (rangefinder) CommandEnded: {'returncode': 0}
+[21.449379] (-) TimerEvent: {}
+[21.489481] (rangefinder) JobEnded: {'identifier': 'rangefinder', 'rc': 0}
+[21.549525] (-) TimerEvent: {}
+[21.650499] (-) TimerEvent: {}
+[21.751497] (-) TimerEvent: {}
+[21.853992] (-) TimerEvent: {}
+[21.958321] (-) TimerEvent: {}
+[22.059558] (-) TimerEvent: {}
+[22.160369] (-) TimerEvent: {}
+[22.261305] (-) TimerEvent: {}
+[22.362034] (-) TimerEvent: {}
+[22.462844] (-) TimerEvent: {}
+[22.563594] (-) TimerEvent: {}
+[22.664392] (-) TimerEvent: {}
+[22.765339] (-) TimerEvent: {}
+[22.866167] (-) TimerEvent: {}
+[22.967098] (-) TimerEvent: {}
+[23.068378] (-) TimerEvent: {}
+[23.109974] (global_position_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/global_position_node', 'build', '--build-base', '/home/drone/drone_ws/build/global_position_node/build', 'install', '--record', '/home/drone/drone_ws/build/global_position_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/global_position', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/drone_utils:/home/drone/drone_ws/install/drone_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/global_position_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[23.168627] (-) TimerEvent: {}
+[23.269831] (-) TimerEvent: {}
+[23.372691] (-) TimerEvent: {}
+[23.474502] (-) TimerEvent: {}
+[23.514567] (marker_pose_estimator_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/marker_pose_estimator_node', 'build', '--build-base', '/home/drone/drone_ws/build/marker_pose_estimator_node/build', 'install', '--record', '/home/drone/drone_ws/build/marker_pose_estimator_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/marker_pose_estimator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/marker_pose_estimator_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[23.574689] (-) TimerEvent: {}
+[23.677758] (-) TimerEvent: {}
+[23.779316] (-) TimerEvent: {}
+[23.880164] (-) TimerEvent: {}
+[23.982887] (-) TimerEvent: {}
+[24.086694] (-) TimerEvent: {}
+[24.187630] (-) TimerEvent: {}
+[24.288491] (-) TimerEvent: {}
+[24.389375] (-) TimerEvent: {}
+[24.490190] (-) TimerEvent: {}
+[24.592609] (-) TimerEvent: {}
+[24.694997] (-) TimerEvent: {}
+[24.795963] (-) TimerEvent: {}
+[24.837894] (global_position_node) StdoutLine: {'line': b'running egg_info\n'}
+[24.841885] (global_position_node) StdoutLine: {'line': b'writing ../../build/global_position_node/global_position.egg-info/PKG-INFO\n'}
+[24.845028] (global_position_node) StdoutLine: {'line': b'writing dependency_links to ../../build/global_position_node/global_position.egg-info/dependency_links.txt\n'}
+[24.850367] (global_position_node) StdoutLine: {'line': b'writing entry points to ../../build/global_position_node/global_position.egg-info/entry_points.txt\n'}
+[24.853322] (global_position_node) StdoutLine: {'line': b'writing requirements to ../../build/global_position_node/global_position.egg-info/requires.txt\n'}
+[24.855500] (global_position_node) StdoutLine: {'line': b'writing top-level names to ../../build/global_position_node/global_position.egg-info/top_level.txt\n'}
+[24.860553] (global_position_node) StdoutLine: {'line': b"reading manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'\n"}
+[24.875273] (global_position_node) StdoutLine: {'line': b"writing manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'\n"}
+[24.878391] (global_position_node) StdoutLine: {'line': b'running build\n'}
+[24.881504] (global_position_node) StdoutLine: {'line': b'running build_py\n'}
+[24.884406] (global_position_node) StdoutLine: {'line': b'running install\n'}
+[24.889646] (global_position_node) StdoutLine: {'line': b'running install_lib\n'}
+[24.893829] (global_position_node) StdoutLine: {'line': b'running install_data\n'}
+[24.895991] (-) TimerEvent: {}
+[24.898649] (global_position_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.902180] (global_position_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[24.913096] (global_position_node) StdoutLine: {'line': b'Copying ../../build/global_position_node/global_position.egg-info to /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position-0.0.0-py3.10.egg-info\n'}
+[24.918718] (global_position_node) StdoutLine: {'line': b'running install_scripts\n'}
+[24.996225] (-) TimerEvent: {}
+[25.021689] (global_position_node) StdoutLine: {'line': b'Installing global_position script to /home/drone/drone_ws/install/global_position_node/lib/global_position\n'}
+[25.025095] (global_position_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/global_position_node/install.log'\n"}
+[25.096641] (-) TimerEvent: {}
+[25.197150] (global_position_node) CommandEnded: {'returncode': 0}
+[25.201547] (-) TimerEvent: {}
+[25.203360] (marker_pose_estimator_node) StdoutLine: {'line': b'running egg_info\n'}
+[25.205636] (marker_pose_estimator_node) StdoutLine: {'line': b'writing ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/PKG-INFO\n'}
+[25.214576] (marker_pose_estimator_node) StdoutLine: {'line': b'writing dependency_links to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/dependency_links.txt\n'}
+[25.219126] (marker_pose_estimator_node) StdoutLine: {'line': b'writing entry points to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/entry_points.txt\n'}
+[25.224853] (marker_pose_estimator_node) StdoutLine: {'line': b'writing requirements to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/requires.txt\n'}
+[25.228812] (marker_pose_estimator_node) StdoutLine: {'line': b'writing top-level names to ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/top_level.txt\n'}
+[25.239371] (marker_pose_estimator_node) StdoutLine: {'line': b"reading manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'\n"}
+[25.243888] (marker_pose_estimator_node) StdoutLine: {'line': b"writing manifest file '../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info/SOURCES.txt'\n"}
+[25.248362] (marker_pose_estimator_node) StdoutLine: {'line': b'running build\n'}
+[25.256737] (marker_pose_estimator_node) StdoutLine: {'line': b'running build_py\n'}
+[25.257514] (marker_pose_estimator_node) StdoutLine: {'line': b'running install\n'}
+[25.258194] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_lib\n'}
+[25.258829] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_data\n'}
+[25.259231] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.259658] (marker_pose_estimator_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.260633] (marker_pose_estimator_node) StdoutLine: {'line': b'Copying ../../build/marker_pose_estimator_node/marker_pose_estimator.egg-info to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages/marker_pose_estimator-0.0.0-py3.10.egg-info\n'}
+[25.267508] (global_position_node) JobEnded: {'identifier': 'global_position_node', 'rc': 0}
+[25.273988] (marker_pose_estimator_node) StdoutLine: {'line': b'running install_scripts\n'}
+[25.301818] (-) TimerEvent: {}
+[25.364921] (marker_pose_estimator_node) StdoutLine: {'line': b'Installing marker_pose_estimator script to /home/drone/drone_ws/install/marker_pose_estimator_node/lib/marker_pose_estimator\n'}
+[25.366857] (marker_pose_estimator_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/marker_pose_estimator_node/install.log'\n"}
+[25.402187] (-) TimerEvent: {}
+[25.504414] (-) TimerEvent: {}
+[25.568642] (marker_pose_estimator_node) CommandEnded: {'returncode': 0}
+[25.605110] (-) TimerEvent: {}
+[25.621637] (marker_pose_estimator_node) JobEnded: {'identifier': 'marker_pose_estimator_node', 'rc': 0}
+[25.629145] (position_fusion_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/position_fusion_node', 'build', '--build-base', '/home/drone/drone_ws/build/position_fusion_node/build', 'install', '--record', '/home/drone/drone_ws/build/position_fusion_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/drone_ws/src/position_fusion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'SSH_CLIENT': '192.168.137.1 61447 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/drone_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/drone', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5df3b3a5-3492-4d95-b43a-3961066daa0f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/drone/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/home/drone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3587a407b2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/drone/drone_ws/install/drone_utils:/home/drone/drone_ws/install/drone_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/drone/drone_ws/build/position_fusion_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 61447 192.168.137.46 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_utils/lib/python3.10/site-packages:/home/drone/drone_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/drone/drone_ws/install/drone_msgs'}, 'shell': False}
+[25.705272] (-) TimerEvent: {}
+[25.805968] (-) TimerEvent: {}
+[25.906828] (-) TimerEvent: {}
+[26.007631] (-) TimerEvent: {}
+[26.108317] (-) TimerEvent: {}
+[26.209008] (-) TimerEvent: {}
+[26.309648] (-) TimerEvent: {}
+[26.410323] (-) TimerEvent: {}
+[26.511012] (-) TimerEvent: {}
+[26.611751] (-) TimerEvent: {}
+[26.712435] (-) TimerEvent: {}
+[26.813219] (-) TimerEvent: {}
+[26.833305] (position_fusion_node) StdoutLine: {'line': b'running egg_info\n'}
+[26.836374] (position_fusion_node) StdoutLine: {'line': b'writing ../../build/position_fusion_node/position_fusion.egg-info/PKG-INFO\n'}
+[26.837613] (position_fusion_node) StdoutLine: {'line': b'writing dependency_links to ../../build/position_fusion_node/position_fusion.egg-info/dependency_links.txt\n'}
+[26.838569] (position_fusion_node) StdoutLine: {'line': b'writing entry points to ../../build/position_fusion_node/position_fusion.egg-info/entry_points.txt\n'}
+[26.839704] (position_fusion_node) StdoutLine: {'line': b'writing requirements to ../../build/position_fusion_node/position_fusion.egg-info/requires.txt\n'}
+[26.840501] (position_fusion_node) StdoutLine: {'line': b'writing top-level names to ../../build/position_fusion_node/position_fusion.egg-info/top_level.txt\n'}
+[26.849129] (position_fusion_node) StdoutLine: {'line': b"reading manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'\n"}
+[26.859406] (position_fusion_node) StdoutLine: {'line': b"writing manifest file '../../build/position_fusion_node/position_fusion.egg-info/SOURCES.txt'\n"}
+[26.860249] (position_fusion_node) StdoutLine: {'line': b'running build\n'}
+[26.860871] (position_fusion_node) StdoutLine: {'line': b'running build_py\n'}
+[26.862242] (position_fusion_node) StdoutLine: {'line': b'running install\n'}
+[26.863590] (position_fusion_node) StdoutLine: {'line': b'running install_lib\n'}
+[26.870311] (position_fusion_node) StdoutLine: {'line': b'running install_data\n'}
+[26.871038] (position_fusion_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[26.878406] (position_fusion_node) StdoutLine: {'line': b"removing '/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[26.880566] (position_fusion_node) StdoutLine: {'line': b'Copying ../../build/position_fusion_node/position_fusion.egg-info to /home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages/position_fusion-0.0.0-py3.10.egg-info\n'}
+[26.889721] (position_fusion_node) StdoutLine: {'line': b'running install_scripts\n'}
+[26.913397] (-) TimerEvent: {}
+[26.970540] (position_fusion_node) StdoutLine: {'line': b'Installing position_fusion script to /home/drone/drone_ws/install/position_fusion_node/lib/position_fusion\n'}
+[26.972213] (position_fusion_node) StdoutLine: {'line': b"writing list of installed files to '/home/drone/drone_ws/build/position_fusion_node/install.log'\n"}
+[27.013687] (-) TimerEvent: {}
+[27.102804] (position_fusion_node) CommandEnded: {'returncode': 0}
+[27.114341] (-) TimerEvent: {}
+[27.138179] (position_fusion_node) JobEnded: {'identifier': 'position_fusion_node', 'rc': 0}
+[27.142095] (-) EventReactorShutdown: {}

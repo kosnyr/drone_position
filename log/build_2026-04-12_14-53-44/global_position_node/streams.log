@@ -1,0 +1,25 @@
+[6.562s] Invoking command in '/home/drone/drone_ws/src/global_position': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data
+[8.284s] running egg_info
+[8.289s] writing ../../build/global_position_node/global_position.egg-info/PKG-INFO
+[8.292s] writing dependency_links to ../../build/global_position_node/global_position.egg-info/dependency_links.txt
+[8.294s] writing entry points to ../../build/global_position_node/global_position.egg-info/entry_points.txt
+[8.296s] writing requirements to ../../build/global_position_node/global_position.egg-info/requires.txt
+[8.300s] writing top-level names to ../../build/global_position_node/global_position.egg-info/top_level.txt
+[8.307s] reading manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'
+[8.320s] writing manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'
+[8.323s] running build
+[8.326s] running build_py
+[8.328s] copying global_position/global_position_node.py -> /home/drone/drone_ws/build/global_position_node/build/lib/global_position
+[8.331s] running install
+[8.334s] running install_lib
+[8.341s] copying /home/drone/drone_ws/build/global_position_node/build/lib/global_position/global_position_node.py -> /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position
+[8.344s] byte-compiling /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position/global_position_node.py to global_position_node.cpython-310.pyc
+[8.348s] running install_data
+[8.351s] copying package.xml -> /home/drone/drone_ws/install/global_position_node/share/global_position
+[8.352s] running install_egg_info
+[8.361s] removing '/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position-0.0.0-py3.10.egg-info' (and everything under it)
+[8.369s] Copying ../../build/global_position_node/global_position.egg-info to /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position-0.0.0-py3.10.egg-info
+[8.378s] running install_scripts
+[8.485s] Installing global_position script to /home/drone/drone_ws/install/global_position_node/lib/global_position
+[8.492s] writing list of installed files to '/home/drone/drone_ws/build/global_position_node/install.log'
+[8.654s] Invoked command in '/home/drone/drone_ws/src/global_position' returned '0': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data

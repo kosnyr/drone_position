@@ -1,0 +1,3 @@
+[console_scripts]
+image_preprocessor = image_preprocessor.image_preprocessor_node:main
+

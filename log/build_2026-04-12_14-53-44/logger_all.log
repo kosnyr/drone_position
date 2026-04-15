@@ -1,0 +1,737 @@
+[0.816s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.816s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96c569b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff96e30880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff96e30880>>)
+[2.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.230s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/drone/drone_ws'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extensions ['ignore', 'ignore_ament_install']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extension 'ignore'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extension 'ignore_ament_install'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extensions ['colcon_pkg']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extension 'colcon_pkg'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extensions ['colcon_meta']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extension 'colcon_meta'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extensions ['ros']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/altitude) by extension 'ros'
+[2.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/altitude' with type 'ros.ament_python' and name 'altitude'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore_ament_install'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_pkg']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_pkg'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_meta']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_meta'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ros']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ros'
+[2.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detector' with type 'ros.ament_python' and name 'aruco_detector_node'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extension 'ignore'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extension 'ignore_ament_install'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extensions ['colcon_pkg']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extension 'colcon_pkg'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extensions ['colcon_meta']
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extension 'colcon_meta'
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extensions ['ros']
+[2.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_msgs) by extension 'ros'
+[2.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_msgs' with type 'ros.ament_cmake' and name 'drone_msgs'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extensions ['ignore', 'ignore_ament_install']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extension 'ignore'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extension 'ignore_ament_install'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extensions ['colcon_pkg']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extension 'colcon_pkg'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extensions ['colcon_meta']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extension 'colcon_meta'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extensions ['ros']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_untils) by extension 'ros'
+[2.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_untils' with type 'ros.ament_python' and name 'drone_untils'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extensions ['ignore', 'ignore_ament_install']
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extension 'ignore'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extension 'ignore_ament_install'
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extensions ['colcon_pkg']
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extension 'colcon_pkg'
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extensions ['colcon_meta']
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extension 'colcon_meta'
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extensions ['ros']
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_position) by extension 'ros'
+[2.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_position' with type 'ros.ament_python' and name 'global_position_node'
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extensions ['ignore', 'ignore_ament_install']
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extension 'ignore'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extension 'ignore_ament_install'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extensions ['colcon_pkg']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extension 'colcon_pkg'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extensions ['colcon_meta']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extension 'colcon_meta'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extensions ['ros']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_preprocessor) by extension 'ros'
+[2.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_preprocessor' with type 'ros.ament_python' and name 'image_preprocessor_node'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extensions ['ignore', 'ignore_ament_install']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extension 'ignore'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extension 'ignore_ament_install'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extensions ['colcon_pkg']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extension 'colcon_pkg'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extensions ['colcon_meta']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extension 'colcon_meta'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extensions ['ros']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_pose_estimator) by extension 'ros'
+[2.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marker_pose_estimator' with type 'ros.ament_python' and name 'marker_pose_estimator_node'
+[2.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extensions ['ignore', 'ignore_ament_install']
+[2.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extension 'ignore'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extension 'ignore_ament_install'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extensions ['colcon_pkg']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extension 'colcon_pkg'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extensions ['colcon_meta']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extension 'colcon_meta'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extensions ['ros']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/position_fusion) by extension 'ros'
+[2.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/position_fusion' with type 'ros.ament_python' and name 'position_fusion_node'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extensions ['ignore', 'ignore_ament_install']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extension 'ignore'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extension 'ignore_ament_install'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extensions ['colcon_pkg']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extension 'colcon_pkg'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extensions ['colcon_meta']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extension 'colcon_meta'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extensions ['ros']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_start) by extension 'ros'
+[2.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_start' with type 'ros.ament_python' and name 'project_start'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extensions ['ignore', 'ignore_ament_install']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extension 'ignore'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extension 'ignore_ament_install'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extensions ['colcon_pkg']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extension 'colcon_pkg'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extensions ['colcon_meta']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extension 'colcon_meta'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extensions ['ros']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4) by extension 'ros'
+[2.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4' with type 'ros.ament_python' and name 'px4'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extensions ['ignore', 'ignore_ament_install']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extension 'ignore'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extension 'ignore_ament_install'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extensions ['colcon_pkg']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extension 'colcon_pkg'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extensions ['colcon_meta']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extension 'colcon_meta'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extensions ['ros']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rangefinder) by extension 'ros'
+[2.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rangefinder' with type 'ros.ament_python' and name 'rangefinder'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extension 'ignore'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extension 'ignore_ament_install'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extensions ['colcon_pkg']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extension 'colcon_pkg'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extensions ['colcon_meta']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extension 'colcon_meta'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extensions ['ros']
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_camera) by extension 'ros'
+[2.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_camera' with type 'ros.ament_cmake' and name 'uav_camera'
+[2.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.648s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/drone/drone_ws/install
+[2.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[2.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.908s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_args' from command line to 'None'
+[2.908s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_target' from command line to 'None'
+[2.908s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.908s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_clean_cache' from command line to 'False'
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_clean_first' from command line to 'False'
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'cmake_force_configure' from command line to 'False'
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'ament_cmake_args' from command line to 'None'
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'catkin_cmake_args' from command line to 'None'
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'altitude' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.909s] DEBUG:colcon.colcon_core.verb:Building package 'altitude' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/altitude', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/altitude', 'merge_install': False, 'path': '/home/drone/drone_ws/src/altitude', 'symlink_install': False, 'test_result_base': None}
+[2.911s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_args' from command line to 'None'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_target' from command line to 'None'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.913s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detector_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/aruco_detector_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/aruco_detector_node', 'merge_install': False, 'path': '/home/drone/drone_ws/src/aruco_detector', 'symlink_install': False, 'test_result_base': None}
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_args' from command line to 'None'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_target' from command line to 'None'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'drone_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.916s] DEBUG:colcon.colcon_core.verb:Building package 'drone_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/drone_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/drone_msgs', 'merge_install': False, 'path': '/home/drone/drone_ws/src/drone_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_target' from command line to 'None'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_clean_cache' from command line to 'False'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_clean_first' from command line to 'False'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'cmake_force_configure' from command line to 'False'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'ament_cmake_args' from command line to 'None'
+[2.919s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'catkin_cmake_args' from command line to 'None'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'drone_untils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.920s] DEBUG:colcon.colcon_core.verb:Building package 'drone_untils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/drone_untils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/drone_untils', 'merge_install': False, 'path': '/home/drone/drone_ws/src/drone_untils', 'symlink_install': False, 'test_result_base': None}
+[2.922s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_args' from command line to 'None'
+[2.922s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_target' from command line to 'None'
+[2.922s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.922s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.922s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'image_preprocessor_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.923s] DEBUG:colcon.colcon_core.verb:Building package 'image_preprocessor_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/image_preprocessor_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/image_preprocessor_node', 'merge_install': False, 'path': '/home/drone/drone_ws/src/image_preprocessor', 'symlink_install': False, 'test_result_base': None}
+[2.925s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_args' from command line to 'None'
+[2.925s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_target' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_clean_cache' from command line to 'False'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_clean_first' from command line to 'False'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'cmake_force_configure' from command line to 'False'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'ament_cmake_args' from command line to 'None'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'catkin_cmake_args' from command line to 'None'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'project_start' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.928s] DEBUG:colcon.colcon_core.verb:Building package 'project_start' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/project_start', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/project_start', 'merge_install': False, 'path': '/home/drone/drone_ws/src/project_start', 'symlink_install': False, 'test_result_base': None}
+[2.929s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_args' from command line to 'None'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target' from command line to 'None'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_cache' from command line to 'False'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_first' from command line to 'False'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_force_configure' from command line to 'False'
+[2.930s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'ament_cmake_args' from command line to 'None'
+[2.931s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_cmake_args' from command line to 'None'
+[2.931s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.931s] DEBUG:colcon.colcon_core.verb:Building package 'px4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/px4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/px4', 'merge_install': False, 'path': '/home/drone/drone_ws/src/px4', 'symlink_install': False, 'test_result_base': None}
+[2.933s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_args' from command line to 'None'
+[2.933s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_target' from command line to 'None'
+[2.933s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.933s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_clean_cache' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_clean_first' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'cmake_force_configure' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'ament_cmake_args' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'catkin_cmake_args' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'rangefinder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.934s] DEBUG:colcon.colcon_core.verb:Building package 'rangefinder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/rangefinder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/rangefinder', 'merge_install': False, 'path': '/home/drone/drone_ws/src/rangefinder', 'symlink_install': False, 'test_result_base': None}
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_args' from command line to 'None'
+[2.936s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_target' from command line to 'None'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.937s] Level 5:colcon.colcon_core.verb:set package 'uav_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.938s] DEBUG:colcon.colcon_core.verb:Building package 'uav_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/uav_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/uav_camera', 'merge_install': False, 'path': '/home/drone/drone_ws/src/uav_camera', 'symlink_install': False, 'test_result_base': None}
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_args' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_target' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'global_position_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.941s] DEBUG:colcon.colcon_core.verb:Building package 'global_position_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/global_position_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/global_position_node', 'merge_install': False, 'path': '/home/drone/drone_ws/src/global_position', 'symlink_install': False, 'test_result_base': None}
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_args' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_target' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'marker_pose_estimator_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.945s] DEBUG:colcon.colcon_core.verb:Building package 'marker_pose_estimator_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/marker_pose_estimator_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/marker_pose_estimator_node', 'merge_install': False, 'path': '/home/drone/drone_ws/src/marker_pose_estimator', 'symlink_install': False, 'test_result_base': None}
+[2.946s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_args' from command line to 'None'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_target' from command line to 'None'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_clean_cache' from command line to 'False'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_clean_first' from command line to 'False'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'cmake_force_configure' from command line to 'False'
+[2.947s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'ament_cmake_args' from command line to 'None'
+[2.948s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'catkin_cmake_args' from command line to 'None'
+[2.948s] Level 5:colcon.colcon_core.verb:set package 'position_fusion_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.948s] DEBUG:colcon.colcon_core.verb:Building package 'position_fusion_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone/drone_ws/build/position_fusion_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone/drone_ws/install/position_fusion_node', 'merge_install': False, 'path': '/home/drone/drone_ws/src/position_fusion', 'symlink_install': False, 'test_result_base': None}
+[2.949s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drone/drone_ws/src/drone_msgs' with build type 'ament_cmake'
+[2.955s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drone/drone_ws/src/drone_msgs'
+[2.986s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.016s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/altitude' with build type 'ament_python'
+[3.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('altitude', 'ament_prefix_path')
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/altitude/share/altitude/hook/ament_prefix_path.ps1'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/altitude/share/altitude/hook/ament_prefix_path.dsv'
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/altitude/share/altitude/hook/ament_prefix_path.sh'
+[3.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/aruco_detector' with build type 'ament_python'
+[3.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector_node', 'ament_prefix_path')
+[3.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/ament_prefix_path.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/ament_prefix_path.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/ament_prefix_path.sh'
+[3.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.129s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/drone_untils' with build type 'ament_python'
+[3.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_untils', 'ament_prefix_path')
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/ament_prefix_path.ps1'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/ament_prefix_path.dsv'
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/ament_prefix_path.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/drone_msgs -- -j4 -l4
+[5.103s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/altitude'
+[5.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.602s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'aruco_detector_node' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[6.603s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'aruco_detector_node' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[6.604s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/aruco_detector'
+[6.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.183s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/drone_untils'
+[8.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/drone_msgs -- -j4 -l4
+[8.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/drone_msgs
+[9.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_msgs)
+[9.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/drone_msgs
+[9.320s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs' for CMake module files
+[9.325s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs' for CMake config files
+[9.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_msgs', 'cmake_prefix_path')
+[9.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.ps1'
+[9.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.dsv'
+[9.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.sh'
+[9.378s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib'
+[9.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_msgs', 'ld_library_path_lib')
+[9.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.ps1'
+[9.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.dsv'
+[9.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.sh'
+[9.400s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/bin'
+[9.401s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib/pkgconfig/drone_msgs.pc'
+[9.402s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib/python3.10/site-packages'
+[9.405s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/bin'
+[9.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.ps1'
+[9.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.dsv'
+[9.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.sh'
+[9.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.bash'
+[9.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.zsh'
+[9.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/drone_msgs/share/colcon-core/packages/drone_msgs)
+[9.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_msgs)
+[9.473s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs' for CMake module files
+[9.478s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs' for CMake config files
+[9.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_msgs', 'cmake_prefix_path')
+[9.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.ps1'
+[9.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.dsv'
+[9.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/cmake_prefix_path.sh'
+[9.525s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib'
+[9.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_msgs', 'ld_library_path_lib')
+[9.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.ps1'
+[9.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.dsv'
+[9.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/hook/ld_library_path_lib.sh'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/bin'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib/pkgconfig/drone_msgs.pc'
+[9.566s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/lib/python3.10/site-packages'
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_msgs/bin'
+[9.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.ps1'
+[9.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.dsv'
+[9.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.sh'
+[9.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.bash'
+[9.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_msgs/share/drone_msgs/package.zsh'
+[9.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/drone_msgs/share/colcon-core/packages/drone_msgs)
+[9.616s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/image_preprocessor' with build type 'ament_python'
+[9.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_preprocessor_node', 'ament_prefix_path')
+[9.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/ament_prefix_path.ps1'
+[9.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/ament_prefix_path.dsv'
+[9.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/ament_prefix_path.sh'
+[9.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.087s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'image_preprocessor_node' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[12.088s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'image_preprocessor_node' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[12.092s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/image_preprocessor'
+[12.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/altitude': PYTHONPATH=/home/drone/drone_ws/build/altitude/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/altitude build --build-base /home/drone/drone_ws/build/altitude/build install --record /home/drone/drone_ws/build/altitude/install.log --single-version-externally-managed install_data
+[12.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/aruco_detector': PYTHONPATH=/home/drone/drone_ws/build/aruco_detector_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_node build --build-base /home/drone/drone_ws/build/aruco_detector_node/build install --record /home/drone/drone_ws/build/aruco_detector_node/install.log --single-version-externally-managed install_data
+[12.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/drone_untils': PYTHONPATH=/home/drone/drone_ws/build/drone_untils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_untils build --build-base /home/drone/drone_ws/build/drone_untils/build install --record /home/drone/drone_ws/build/drone_untils/install.log --single-version-externally-managed install_data
+[14.786s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude' for CMake module files
+[14.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/altitude' returned '0': PYTHONPATH=/home/drone/drone_ws/build/altitude/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/altitude build --build-base /home/drone/drone_ws/build/altitude/build install --record /home/drone/drone_ws/build/altitude/install.log --single-version-externally-managed install_data
+[14.797s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude' for CMake config files
+[14.811s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude/lib'
+[14.813s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude/bin'
+[14.814s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude/lib/pkgconfig/altitude.pc'
+[14.817s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude/lib/python3.10/site-packages'
+[14.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('altitude', 'pythonpath')
+[14.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/altitude/share/altitude/hook/pythonpath.ps1'
+[14.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/altitude/share/altitude/hook/pythonpath.dsv'
+[14.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/altitude/share/altitude/hook/pythonpath.sh'
+[14.845s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/altitude/bin'
+[14.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(altitude)
+[14.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/altitude/share/altitude/package.ps1'
+[14.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/altitude/share/altitude/package.dsv'
+[14.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/altitude/share/altitude/package.sh'
+[14.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/altitude/share/altitude/package.bash'
+[14.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/altitude/share/altitude/package.zsh'
+[14.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/altitude/share/colcon-core/packages/altitude)
+[14.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/project_start' with build type 'ament_python'
+[14.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_start', 'ament_prefix_path')
+[14.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/project_start/share/project_start/hook/ament_prefix_path.ps1'
+[14.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/project_start/share/project_start/hook/ament_prefix_path.dsv'
+[14.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/project_start/share/project_start/hook/ament_prefix_path.sh'
+[14.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.975s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils' for CMake module files
+[14.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/drone_untils' returned '0': PYTHONPATH=/home/drone/drone_ws/build/drone_untils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_untils build --build-base /home/drone/drone_ws/build/drone_untils/build install --record /home/drone/drone_ws/build/drone_untils/install.log --single-version-externally-managed install_data
+[14.983s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils' for CMake config files
+[14.988s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils/lib'
+[14.989s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils/bin'
+[14.990s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils/lib/pkgconfig/drone_untils.pc'
+[14.992s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils/lib/python3.10/site-packages'
+[14.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_untils', 'pythonpath')
+[14.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/pythonpath.ps1'
+[14.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/pythonpath.dsv'
+[15.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/drone_untils/share/drone_untils/hook/pythonpath.sh'
+[15.006s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/drone_untils/bin'
+[15.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_untils)
+[15.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_untils/share/drone_untils/package.ps1'
+[15.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/drone_untils/share/drone_untils/package.dsv'
+[15.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_untils/share/drone_untils/package.sh'
+[15.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_untils/share/drone_untils/package.bash'
+[15.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/drone_untils/share/drone_untils/package.zsh'
+[15.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/drone_untils/share/colcon-core/packages/drone_untils)
+[15.024s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/px4' with build type 'ament_python'
+[15.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ament_prefix_path')
+[15.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/px4/share/px4/hook/ament_prefix_path.ps1'
+[15.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/px4/share/px4/hook/ament_prefix_path.dsv'
+[15.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/px4/share/px4/hook/ament_prefix_path.sh'
+[15.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.492s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/project_start'
+[16.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.520s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node' for CMake module files
+[16.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/aruco_detector' returned '0': PYTHONPATH=/home/drone/drone_ws/build/aruco_detector_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_node build --build-base /home/drone/drone_ws/build/aruco_detector_node/build install --record /home/drone/drone_ws/build/aruco_detector_node/install.log --single-version-externally-managed install_data
+[16.524s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node' for CMake config files
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node/lib'
+[16.530s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node/bin'
+[16.530s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node/lib/pkgconfig/aruco_detector_node.pc'
+[16.531s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node/lib/python3.10/site-packages'
+[16.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector_node', 'pythonpath')
+[16.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/pythonpath.ps1'
+[16.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/pythonpath.dsv'
+[16.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/hook/pythonpath.sh'
+[16.541s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/aruco_detector_node/bin'
+[16.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detector_node)
+[16.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/package.ps1'
+[16.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/package.dsv'
+[16.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/package.sh'
+[16.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/package.bash'
+[16.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/aruco_detector_node/share/aruco_detector_node/package.zsh'
+[16.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/aruco_detector_node/share/colcon-core/packages/aruco_detector_node)
+[16.558s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/rangefinder' with build type 'ament_python'
+[16.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('rangefinder', 'ament_prefix_path')
+[16.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/ament_prefix_path.ps1'
+[16.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/ament_prefix_path.dsv'
+[16.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/ament_prefix_path.sh'
+[16.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.963s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/px4'
+[17.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/image_preprocessor': PYTHONPATH=/home/drone/drone_ws/build/image_preprocessor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_preprocessor_node build --build-base /home/drone/drone_ws/build/image_preprocessor_node/build install --record /home/drone/drone_ws/build/image_preprocessor_node/install.log --single-version-externally-managed install_data
+[19.803s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/rangefinder'
+[19.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.022s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node' for CMake module files
+[20.024s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node' for CMake config files
+[20.029s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node/lib'
+[20.029s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node/bin'
+[20.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/image_preprocessor' returned '0': PYTHONPATH=/home/drone/drone_ws/build/image_preprocessor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_preprocessor_node build --build-base /home/drone/drone_ws/build/image_preprocessor_node/build install --record /home/drone/drone_ws/build/image_preprocessor_node/install.log --single-version-externally-managed install_data
+[20.032s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node/lib/pkgconfig/image_preprocessor_node.pc'
+[20.034s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node/lib/python3.10/site-packages'
+[20.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_preprocessor_node', 'pythonpath')
+[20.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/pythonpath.ps1'
+[20.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/pythonpath.dsv'
+[20.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/hook/pythonpath.sh'
+[20.054s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/image_preprocessor_node/bin'
+[20.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_preprocessor_node)
+[20.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/package.ps1'
+[20.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/package.dsv'
+[20.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/package.sh'
+[20.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/package.bash'
+[20.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/image_preprocessor_node/share/image_preprocessor_node/package.zsh'
+[20.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/image_preprocessor_node/share/colcon-core/packages/image_preprocessor_node)
+[20.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drone/drone_ws/src/uav_camera' with build type 'ament_cmake'
+[20.076s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drone/drone_ws/src/uav_camera'
+[20.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[20.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/project_start': PYTHONPATH=/home/drone/drone_ws/build/project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_start build --build-base /home/drone/drone_ws/build/project_start/build install --record /home/drone/drone_ws/build/project_start/install.log --single-version-externally-managed install_data
+[20.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --build /home/drone/drone_ws/build/uav_camera -- -j4 -l4
+[20.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/build/uav_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera
+[20.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_camera)
+[20.885s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera' for CMake module files
+[20.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/build/uav_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/drone_ws/install/rangefinder:/home/drone/drone_ws/install/px4:/home/drone/drone_ws/install/project_start:/home/drone/drone_ws/install/position_fusion_node:/home/drone/drone_ws/install/marker_pose_estimator_node:/home/drone/drone_ws/install/image_preprocessor_node:/home/drone/drone_ws/install/global_position_node:/home/drone/drone_ws/install/aruco_detector_node:/home/drone/drone_ws/install/altitude:/opt/ros/humble /usr/bin/cmake --install /home/drone/drone_ws/build/uav_camera
+[20.890s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera' for CMake config files
+[20.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_camera', 'cmake_prefix_path')
+[20.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.ps1'
+[20.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.dsv'
+[20.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.sh'
+[20.907s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib'
+[20.908s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/bin'
+[20.909s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib/pkgconfig/uav_camera.pc'
+[20.910s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib/python3.10/site-packages'
+[20.912s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/bin'
+[20.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.ps1'
+[20.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv'
+[20.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.sh'
+[20.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.bash'
+[20.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.zsh'
+[20.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/uav_camera/share/colcon-core/packages/uav_camera)
+[20.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_camera)
+[20.941s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera' for CMake module files
+[20.945s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera' for CMake config files
+[20.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_camera', 'cmake_prefix_path')
+[20.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.ps1'
+[20.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.dsv'
+[20.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/uav_camera/share/uav_camera/hook/cmake_prefix_path.sh'
+[20.978s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib'
+[20.980s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/bin'
+[20.981s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib/pkgconfig/uav_camera.pc'
+[20.982s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/lib/python3.10/site-packages'
+[20.986s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/uav_camera/bin'
+[20.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.ps1'
+[20.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.dsv'
+[20.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.sh'
+[21.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.bash'
+[21.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/uav_camera/share/uav_camera/package.zsh'
+[21.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/uav_camera/share/colcon-core/packages/uav_camera)
+[21.015s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/global_position' with build type 'ament_python'
+[21.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_position_node', 'ament_prefix_path')
+[21.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/ament_prefix_path.ps1'
+[21.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/ament_prefix_path.dsv'
+[21.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/ament_prefix_path.sh'
+[21.038s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.240s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'global_position_node' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[23.241s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'global_position_node' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[23.243s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/global_position'
+[23.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/px4': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data
+[23.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/rangefinder': PYTHONPATH=/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rangefinder build --build-base /home/drone/drone_ws/build/rangefinder/build install --record /home/drone/drone_ws/build/rangefinder/install.log --single-version-externally-managed install_data
+[23.307s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start' for CMake module files
+[23.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/project_start' returned '0': PYTHONPATH=/home/drone/drone_ws/build/project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_start build --build-base /home/drone/drone_ws/build/project_start/build install --record /home/drone/drone_ws/build/project_start/install.log --single-version-externally-managed install_data
+[23.313s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start' for CMake config files
+[23.317s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start/lib'
+[23.318s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start/bin'
+[23.319s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start/lib/pkgconfig/project_start.pc'
+[23.320s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start/lib/python3.10/site-packages'
+[23.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_start', 'pythonpath')
+[23.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/project_start/share/project_start/hook/pythonpath.ps1'
+[23.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/project_start/share/project_start/hook/pythonpath.dsv'
+[23.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/project_start/share/project_start/hook/pythonpath.sh'
+[23.334s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/project_start/bin'
+[23.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_start)
+[23.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/project_start/share/project_start/package.ps1'
+[23.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/project_start/share/project_start/package.dsv'
+[23.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/project_start/share/project_start/package.sh'
+[23.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/project_start/share/project_start/package.bash'
+[23.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/project_start/share/project_start/package.zsh'
+[23.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/project_start/share/colcon-core/packages/project_start)
+[23.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/marker_pose_estimator' with build type 'ament_python'
+[23.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('marker_pose_estimator_node', 'ament_prefix_path')
+[23.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/ament_prefix_path.ps1'
+[23.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/ament_prefix_path.dsv'
+[23.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/ament_prefix_path.sh'
+[23.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.726s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'marker_pose_estimator_node' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[25.726s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'marker_pose_estimator_node' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[25.728s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/marker_pose_estimator'
+[25.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.758s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder' for CMake module files
+[25.760s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder' for CMake config files
+[25.764s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder/lib'
+[25.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/rangefinder' returned '0': PYTHONPATH=/home/drone/drone_ws/build/rangefinder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rangefinder build --build-base /home/drone/drone_ws/build/rangefinder/build install --record /home/drone/drone_ws/build/rangefinder/install.log --single-version-externally-managed install_data
+[25.768s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder/bin'
+[25.768s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder/lib/pkgconfig/rangefinder.pc'
+[25.770s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder/lib/python3.10/site-packages'
+[25.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('rangefinder', 'pythonpath')
+[25.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/pythonpath.ps1'
+[25.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/pythonpath.dsv'
+[25.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/rangefinder/share/rangefinder/hook/pythonpath.sh'
+[25.784s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/rangefinder/bin'
+[25.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rangefinder)
+[25.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/rangefinder/share/rangefinder/package.ps1'
+[25.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/rangefinder/share/rangefinder/package.dsv'
+[25.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/rangefinder/share/rangefinder/package.sh'
+[25.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/rangefinder/share/rangefinder/package.bash'
+[25.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/rangefinder/share/rangefinder/package.zsh'
+[25.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/rangefinder/share/colcon-core/packages/rangefinder)
+[25.803s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4' for CMake module files
+[25.807s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4' for CMake config files
+[25.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/px4' returned '0': PYTHONPATH=/home/drone/drone_ws/build/px4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/px4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4 build --build-base /home/drone/drone_ws/build/px4/build install --record /home/drone/drone_ws/build/px4/install.log --single-version-externally-managed install_data
+[25.813s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4/lib'
+[25.814s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4/bin'
+[25.814s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4/lib/pkgconfig/px4.pc'
+[25.815s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4/lib/python3.10/site-packages'
+[25.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'pythonpath')
+[25.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/px4/share/px4/hook/pythonpath.ps1'
+[25.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/px4/share/px4/hook/pythonpath.dsv'
+[25.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/px4/share/px4/hook/pythonpath.sh'
+[25.825s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/px4/bin'
+[25.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[25.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/px4/share/px4/package.ps1'
+[25.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/px4/share/px4/package.dsv'
+[25.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/px4/share/px4/package.sh'
+[25.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/px4/share/px4/package.bash'
+[25.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/px4/share/px4/package.zsh'
+[25.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/px4/share/colcon-core/packages/px4)
+[25.844s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone/drone_ws/src/position_fusion' with build type 'ament_python'
+[25.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('position_fusion_node', 'ament_prefix_path')
+[25.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/ament_prefix_path.ps1'
+[25.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/ament_prefix_path.dsv'
+[25.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/ament_prefix_path.sh'
+[25.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.534s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'position_fusion_node' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[27.535s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'position_fusion_node' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[27.538s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone/drone_ws/src/position_fusion'
+[27.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/global_position': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data
+[28.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/marker_pose_estimator': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_pose_estimator_node build --build-base /home/drone/drone_ws/build/marker_pose_estimator_node/build install --record /home/drone/drone_ws/build/marker_pose_estimator_node/install.log --single-version-externally-managed install_data
+[29.661s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node' for CMake module files
+[29.664s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node' for CMake config files
+[29.670s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node/lib'
+[29.671s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node/bin'
+[29.671s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node/lib/pkgconfig/global_position_node.pc'
+[29.672s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages'
+[29.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/global_position' returned '0': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data
+[29.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_position_node', 'pythonpath')
+[29.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/pythonpath.ps1'
+[29.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/pythonpath.dsv'
+[29.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/global_position_node/share/global_position_node/hook/pythonpath.sh'
+[29.686s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/global_position_node/bin'
+[29.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_position_node)
+[29.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/global_position_node/share/global_position_node/package.ps1'
+[29.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/global_position_node/share/global_position_node/package.dsv'
+[29.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/global_position_node/share/global_position_node/package.sh'
+[29.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/global_position_node/share/global_position_node/package.bash'
+[29.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/global_position_node/share/global_position_node/package.zsh'
+[29.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/global_position_node/share/colcon-core/packages/global_position_node)
+[30.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone/drone_ws/src/position_fusion': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_fusion_node build --build-base /home/drone/drone_ws/build/position_fusion_node/build install --record /home/drone/drone_ws/build/position_fusion_node/install.log --single-version-externally-managed install_data
+[30.199s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node' for CMake module files
+[30.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/marker_pose_estimator' returned '0': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/marker_pose_estimator_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_pose_estimator_node build --build-base /home/drone/drone_ws/build/marker_pose_estimator_node/build install --record /home/drone/drone_ws/build/marker_pose_estimator_node/install.log --single-version-externally-managed install_data
+[30.203s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node' for CMake config files
+[30.208s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node/lib'
+[30.208s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node/bin'
+[30.209s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node/lib/pkgconfig/marker_pose_estimator_node.pc'
+[30.210s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node/lib/python3.10/site-packages'
+[30.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('marker_pose_estimator_node', 'pythonpath')
+[30.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/pythonpath.ps1'
+[30.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/pythonpath.dsv'
+[30.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/hook/pythonpath.sh'
+[30.220s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/marker_pose_estimator_node/bin'
+[30.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marker_pose_estimator_node)
+[30.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/package.ps1'
+[30.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/package.dsv'
+[30.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/package.sh'
+[30.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/package.bash'
+[30.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/marker_pose_estimator_node/share/marker_pose_estimator_node/package.zsh'
+[30.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/marker_pose_estimator_node/share/colcon-core/packages/marker_pose_estimator_node)
+[31.629s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node' for CMake module files
+[31.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone/drone_ws/src/position_fusion' returned '0': CMAKE_PREFIX_PATH=/home/drone/drone_ws/install/drone_msgs:/home/drone/drone_ws/install/uav_camera PYTHONPATH=/home/drone/drone_ws/build/position_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_fusion_node build --build-base /home/drone/drone_ws/build/position_fusion_node/build install --record /home/drone/drone_ws/build/position_fusion_node/install.log --single-version-externally-managed install_data
+[31.633s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node' for CMake config files
+[31.638s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node/lib'
+[31.638s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node/bin'
+[31.639s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node/lib/pkgconfig/position_fusion_node.pc'
+[31.640s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node/lib/python3.10/site-packages'
+[31.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('position_fusion_node', 'pythonpath')
+[31.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/pythonpath.ps1'
+[31.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/pythonpath.dsv'
+[31.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/hook/pythonpath.sh'
+[31.650s] Level 1:colcon.colcon_core.environment:checking '/home/drone/drone_ws/install/position_fusion_node/bin'
+[31.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(position_fusion_node)
+[31.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/package.ps1'
+[31.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/package.dsv'
+[31.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/package.sh'
+[31.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/package.bash'
+[31.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone/drone_ws/install/position_fusion_node/share/position_fusion_node/package.zsh'
+[31.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone/drone_ws/install/position_fusion_node/share/colcon-core/packages/position_fusion_node)
+[31.664s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.667s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.701s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.741s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone/drone_ws/install/local_setup.ps1'
+[31.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drone/drone_ws/install/_local_setup_util_ps1.py'
+[31.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone/drone_ws/install/setup.ps1'
+[31.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone/drone_ws/install/local_setup.sh'
+[31.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drone/drone_ws/install/_local_setup_util_sh.py'
+[31.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone/drone_ws/install/setup.sh'
+[31.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone/drone_ws/install/local_setup.bash'
+[31.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone/drone_ws/install/setup.bash'
+[31.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone/drone_ws/install/local_setup.zsh'
+[31.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone/drone_ws/install/setup.zsh'

@@ -1,0 +1,33 @@
+[8.008s] Invoking command in '/home/drone/drone_ws/src/global_position': PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data
+[9.828s] running egg_info
+[9.832s] creating ../../build/global_position_node/global_position.egg-info
+[9.833s] writing ../../build/global_position_node/global_position.egg-info/PKG-INFO
+[9.835s] writing dependency_links to ../../build/global_position_node/global_position.egg-info/dependency_links.txt
+[9.846s] writing entry points to ../../build/global_position_node/global_position.egg-info/entry_points.txt
+[9.847s] writing requirements to ../../build/global_position_node/global_position.egg-info/requires.txt
+[9.848s] writing top-level names to ../../build/global_position_node/global_position.egg-info/top_level.txt
+[9.848s] writing manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'
+[9.851s] reading manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'
+[9.869s] writing manifest file '../../build/global_position_node/global_position.egg-info/SOURCES.txt'
+[9.870s] running build
+[9.870s] running build_py
+[9.871s] creating /home/drone/drone_ws/build/global_position_node/build/lib/global_position
+[9.872s] copying global_position/__init__.py -> /home/drone/drone_ws/build/global_position_node/build/lib/global_position
+[9.872s] copying global_position/global_position_node.py -> /home/drone/drone_ws/build/global_position_node/build/lib/global_position
+[9.874s] running install
+[9.875s] running install_lib
+[9.880s] creating /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position
+[9.880s] copying /home/drone/drone_ws/build/global_position_node/build/lib/global_position/__init__.py -> /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position
+[9.891s] copying /home/drone/drone_ws/build/global_position_node/build/lib/global_position/global_position_node.py -> /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position
+[9.893s] byte-compiling /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position/__init__.py to __init__.cpython-310.pyc
+[9.893s] byte-compiling /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position/global_position_node.py to global_position_node.cpython-310.pyc
+[9.900s] running install_data
+[9.901s] copying resource/global_position -> /home/drone/drone_ws/install/global_position_node/share/ament_index/resource_index/packages
+[9.903s] creating /home/drone/drone_ws/install/global_position_node/share/global_position
+[9.903s] copying package.xml -> /home/drone/drone_ws/install/global_position_node/share/global_position
+[9.904s] running install_egg_info
+[9.918s] Copying ../../build/global_position_node/global_position.egg-info to /home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages/global_position-0.0.0-py3.10.egg-info
+[9.918s] running install_scripts
+[10.025s] Installing global_position script to /home/drone/drone_ws/install/global_position_node/lib/global_position
+[10.027s] writing list of installed files to '/home/drone/drone_ws/build/global_position_node/install.log'
+[10.251s] Invoked command in '/home/drone/drone_ws/src/global_position' returned '0': PYTHONPATH=/home/drone/drone_ws/build/global_position_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/global_position_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/global_position_node build --build-base /home/drone/drone_ws/build/global_position_node/build install --record /home/drone/drone_ws/build/global_position_node/install.log --single-version-externally-managed install_data

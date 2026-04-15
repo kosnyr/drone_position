@@ -1,0 +1,4 @@
+/home/drone/drone_ws/build/drone_msgs/rosidl_adapter/drone_msgs:msg/ArucoDetection.idl
+/home/drone/drone_ws/build/drone_msgs/rosidl_adapter/drone_msgs:msg/ArucoDetectionArray.idl
+/home/drone/drone_ws/build/drone_msgs/rosidl_adapter/drone_msgs:msg/MarkerPose.idl
+/home/drone/drone_ws/build/drone_msgs/rosidl_adapter/drone_msgs:msg/MarkerPoseArray.idl

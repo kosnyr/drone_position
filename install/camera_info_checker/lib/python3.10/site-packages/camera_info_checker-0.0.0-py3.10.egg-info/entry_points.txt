@@ -1,0 +1,3 @@
+[console_scripts]
+camera_info = camera_info_checker.camera_info_checker_node:main
+

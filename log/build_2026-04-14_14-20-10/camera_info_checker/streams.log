@@ -1,0 +1,37 @@
+[6.057s] Invoking command in '/home/drone/drone_ws/src/camera_info_checker': PYTHONPATH=/home/drone/drone_ws/build/camera_info_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_info_checker build --build-base /home/drone/drone_ws/build/camera_info_checker/build install --record /home/drone/drone_ws/build/camera_info_checker/install.log --single-version-externally-managed install_data
+[7.867s] running egg_info
+[7.871s] creating ../../build/camera_info_checker/camera_info_checker.egg-info
+[7.874s] writing ../../build/camera_info_checker/camera_info_checker.egg-info/PKG-INFO
+[7.878s] writing dependency_links to ../../build/camera_info_checker/camera_info_checker.egg-info/dependency_links.txt
+[7.880s] writing entry points to ../../build/camera_info_checker/camera_info_checker.egg-info/entry_points.txt
+[7.883s] writing requirements to ../../build/camera_info_checker/camera_info_checker.egg-info/requires.txt
+[7.885s] writing top-level names to ../../build/camera_info_checker/camera_info_checker.egg-info/top_level.txt
+[7.888s] writing manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+[7.900s] reading manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+[7.912s] writing manifest file '../../build/camera_info_checker/camera_info_checker.egg-info/SOURCES.txt'
+[7.915s] running build
+[7.916s] running build_py
+[7.919s] creating /home/drone/drone_ws/build/camera_info_checker/build
+[7.920s] creating /home/drone/drone_ws/build/camera_info_checker/build/lib
+[7.922s] creating /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+[7.925s] copying camera_info_checker/camera_info_checker_node.py -> /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+[7.931s] copying camera_info_checker/__init__.py -> /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker
+[7.934s] running install
+[7.936s] running install_lib
+[7.942s] creating /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+[7.944s] copying /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker/camera_info_checker_node.py -> /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+[7.946s] copying /home/drone/drone_ws/build/camera_info_checker/build/lib/camera_info_checker/__init__.py -> /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker
+[7.950s] byte-compiling /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker/camera_info_checker_node.py to camera_info_checker_node.cpython-310.pyc
+[7.955s] byte-compiling /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker/__init__.py to __init__.cpython-310.pyc
+[7.958s] running install_data
+[7.960s] creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index
+[7.962s] creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index
+[7.963s] creating /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index/packages
+[7.966s] copying resource/camera_info_checker -> /home/drone/drone_ws/install/camera_info_checker/share/ament_index/resource_index/packages
+[7.970s] copying package.xml -> /home/drone/drone_ws/install/camera_info_checker/share/camera_info_checker
+[7.974s] running install_egg_info
+[7.986s] Copying ../../build/camera_info_checker/camera_info_checker.egg-info to /home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages/camera_info_checker-0.0.0-py3.10.egg-info
+[7.997s] running install_scripts
+[8.105s] Installing camera_info script to /home/drone/drone_ws/install/camera_info_checker/lib/camera_info_checker
+[8.110s] writing list of installed files to '/home/drone/drone_ws/build/camera_info_checker/install.log'
+[8.299s] Invoked command in '/home/drone/drone_ws/src/camera_info_checker' returned '0': PYTHONPATH=/home/drone/drone_ws/build/camera_info_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/camera_info_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_info_checker build --build-base /home/drone/drone_ws/build/camera_info_checker/build install --record /home/drone/drone_ws/build/camera_info_checker/install.log --single-version-externally-managed install_data

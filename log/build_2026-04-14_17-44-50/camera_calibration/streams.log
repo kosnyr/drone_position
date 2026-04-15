@@ -1,0 +1,24 @@
+[3.818s] Invoking command in '/home/drone/drone_ws/src/camera_calibration': PYTHONPATH=/home/drone/drone_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/drone/drone_ws/build/camera_calibration/build install --record /home/drone/drone_ws/build/camera_calibration/install.log --single-version-externally-managed install_data
+[5.005s] running egg_info
+[5.008s] writing ../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[5.009s] writing dependency_links to ../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[5.010s] writing entry points to ../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[5.011s] writing requirements to ../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[5.012s] writing top-level names to ../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[5.020s] reading manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[5.030s] writing manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[5.031s] running build
+[5.031s] running build_py
+[5.032s] copying camera_calibration/camera_calibration_node.py -> /home/drone/drone_ws/build/camera_calibration/build/lib/camera_calibration
+[5.033s] running install
+[5.035s] running install_lib
+[5.038s] copying /home/drone/drone_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibration_node.py -> /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[5.042s] byte-compiling /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_calibration_node.py to camera_calibration_node.cpython-310.pyc
+[5.055s] running install_data
+[5.056s] running install_egg_info
+[5.063s] removing '/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-0.0.0-py3.10.egg-info' (and everything under it)
+[5.066s] Copying ../../build/camera_calibration/camera_calibration.egg-info to /home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-0.0.0-py3.10.egg-info
+[5.074s] running install_scripts
+[5.152s] Installing camera_calibration script to /home/drone/drone_ws/install/camera_calibration/lib/camera_calibration
+[5.154s] writing list of installed files to '/home/drone/drone_ws/build/camera_calibration/install.log'
+[5.276s] Invoked command in '/home/drone/drone_ws/src/camera_calibration' returned '0': PYTHONPATH=/home/drone/drone_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/drone_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/drone/drone_ws/build/camera_calibration/build install --record /home/drone/drone_ws/build/camera_calibration/install.log --single-version-externally-managed install_data
